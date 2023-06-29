@@ -1,8 +1,11 @@
 function Passions() {
     return(
-        <>
-            <p>Passions Page</p>
-        </>
+        <div className="selected-contents-container">
+            <h1>Passions . . .</h1>
+            <div>
+                <p>content</p>
+            </div>
+        </div>
     )
 
 }

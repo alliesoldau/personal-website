@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Agdasima&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+
 
 body {
   margin: 0;
@@ -11,20 +13,40 @@ body {
   display: flex;
   flex-flow: column;
   height: 100vh;
+  margin: 1.5em;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  justify-content: space-between;
+}
+
+.icon-links {
+  margin-right: 2em;
+}
+
+.social-link {
+  margin: .75em;
+}
+
+.social-link:hover {
+  filter: brightness(1.75);
+  transition: filter 300ms;
 }
 
 .page-container {
   display: flex;
   flex-direction: row;
   background: white;
-  flex: 1 1 auto;
+  margin-top: 12vh;
 }
 
 .home-btn {
   display: flex;
-  margin: 0.5em;
   transition: filter 300ms;
-  flex: 0 1 auto;
 }
 
 .home-btn p.name:hover {
@@ -53,19 +75,72 @@ a {
 .navbar-container {
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin-top: 3em;
   margin-left: 1em;
   margin-right: 3em;
   padding: 0.5em;
-  background: gold;
-  height: 80%;
+  font-size: 0.85em;
+  width: 12em;
   justify-content: center;
+  border: 3px grey;
+  border-style: double;
+  border-radius: 0.25em;
+  position: fixed;
 }
 
 .navbar-container p {
   color: #005555;
-  font-size: 1.25em;
-  font-family: 'Nunito';
+  font-size: 1.5em;
+  font-family: 'Lora';
+  font-weight: bold;
+  padding: 0.5em;
+  border: none;
+  border-radius: 15px;
+}
 
+.navlink:hover {
+  background: lightgoldenrodyellow;
+}
+
+.selected-contents-container {
+  margin: 2em;
+  width: 100%;
+  margin-left: 15em;
+  
+}
+
+.selected-contents-container h1 {
+  font-size: 2.5em;
+  font-family: 'Lora';
+  color: #005555;
+}
+
+.selected-contents-container p {
+  font-family: 'Inconsolata';
+}
+
+.selected-contents-container .blurb {
+  width: 50%;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.selfie {
+  width: 50%;
+  margin: auto;
+}
+
+.selfie img {
+  background-color: #fff;
+  /* object-fit: cover;
+  border-radius: 100px;
+  overflow: hidden;
+  height: 150px; */
+  width: 150px;
 }
 

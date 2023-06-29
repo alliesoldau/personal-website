@@ -1,8 +1,12 @@
 function Projects() {
     return(
-        <>
-            <p>Projects Page</p>
-        </>
+        <div className="selected-contents-container">
+            <h1>Projects . . .</h1>
+            <div>
+                <p>content</p>
+            </div>
+
+        </div>
     )
 
 }

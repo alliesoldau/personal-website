@@ -1,8 +1,11 @@
 function Volunteerism() {
     return(
-        <>
-            <p>Volunteerism Page</p>
-        </>
+        <div className="selected-contents-container">
+            <h1>Volunteerism . . .</h1>
+            <div>
+                <p>content</p>
+            </div>
+        </div>
     )
 
 }

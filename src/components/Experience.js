@@ -1,8 +1,9 @@
 function Experience() {
     return(
-        <>
-            <p>Experience Page</p>
-        </>
+        <div className="selected-contents-container">
+            <h1>Experience . . . </h1>
+            <p>content</p>
+        </div>
     )
 
 }

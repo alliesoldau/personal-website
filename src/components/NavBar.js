@@ -6,16 +6,16 @@ function NavBar() {
         <>
             <div className="navbar-container">
                 <NavLink to="/experience" >
-                    <p>Experience</p>
+                    <p className="navlink">Experience</p>
                 </NavLink>
                 <NavLink to="/projects" >
-                    <p>Projects</p>
+                    <p className="navlink">Projects</p>
                 </NavLink>
                 <NavLink to="/volunteerism" >
-                    <p>Volunteerism</p>
+                    <p className="navlink">Volunteerism</p>
                 </NavLink>
                 <NavLink to="/passions" >
-                    <p>Passions</p>
+                    <p className="navlink">Passions</p>
                 </NavLink>
             </div>
         </>
