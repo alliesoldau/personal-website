@@ -1,4 +1,4 @@
-# [Figma Project Planning](https://www.figma.com/file/ANu011I3MqxJ4ZSyjw7Zt3/Personal-Website?type=whiteboard&node-id=1-1408&t=OVij90ciiyLSolCh-0)
+# [Figma Project Planning](https://www.figma.com/file/ANu011I3MqxJ4ZSyjw7Zt3/Personal-Website?type=whiteboard&node-id=0%3A1&t=dkPM3l0Ch3vqAuZq-1)
 
 # Getting Started with Create React App
 
