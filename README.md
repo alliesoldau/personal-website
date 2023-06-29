@@ -1,3 +1,5 @@
+# [Figma Project Planning](https://www.figma.com/file/ANu011I3MqxJ4ZSyjw7Zt3/Personal-Website?type=whiteboard&node-id=1-1408&t=OVij90ciiyLSolCh-0)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
