@@ -132,7 +132,8 @@ a {
 }
 
 .selected-contents-container p {
-  font-family: 'Inconsolata';
+  font-family: 'Lato';
+  font-size: 1em;
 }
 
 .selected-contents-container .blurb {
@@ -194,7 +195,11 @@ a {
   font-family: 'Lato';
   font-size: 1.5em;
   justify-content: center;
+}
 
+.job-blurb {
+  font-family: 'Lato';
+  line-height: 1.5em;
 }
 
 .icon-dd {
