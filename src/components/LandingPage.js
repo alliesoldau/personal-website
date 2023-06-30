@@ -1,4 +1,4 @@
-import selfie from './me.jpeg'
+import selfie from '../images/me.jpeg'
 
 
 function LandingPage() {
