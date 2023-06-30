@@ -12,11 +12,11 @@ function Header() {
                 </NavLink>
             </div>
             <div className="icon-links">
-                <SocialIcon className="social-link" url="https://linkedin.com/in/allie-soldau" />
-                <SocialIcon className="social-link" url="https://github.com/alliesoldau" />
-                <SocialIcon className="social-link" url="https://medium.com/@alliesoldau" />
-                <SocialIcon className="social-link" url="mailto:alliesoldau@gmail.com" />
-                <SocialIcon className="social-link" url="https://www.instagram.com/alliesoldau/" />
+                <SocialIcon className="social-link" bgColor="#3f3e3e" url="https://linkedin.com/in/allie-soldau" />
+                <SocialIcon className="social-link" bgColor="#3f3e3e" url="https://github.com/alliesoldau" />
+                <SocialIcon className="social-link" bgColor="#3f3e3e" url="mailto:alliesoldau@gmail.com" />
+                <SocialIcon className="social-link" bgColor="#3f3e3e" url="https://medium.com/@alliesoldau" />
+                <SocialIcon className="social-link" bgColor="#3f3e3e" url="https://www.instagram.com/alliesoldau/" />
             </div>
         </div>
 

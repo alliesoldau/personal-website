@@ -76,30 +76,28 @@ a {
   display: flex;
   flex-direction: column;
   margin-top: 3em;
-  margin-left: 1em;
   margin-right: 3em;
   padding: 0.5em;
   font-size: 0.85em;
   width: 12em;
   justify-content: center;
-  border: 3px grey;
-  border-style: double;
-  border-radius: 0.25em;
+  border-right: 3px solid #ebeded;
   position: fixed;
 }
 
 .navbar-container p {
-  color: #005555;
-  font-size: 1.5em;
+  color: #283d3d;
+  font-size: 1.25em;
   font-family: 'Lora';
   font-weight: bold;
   padding: 0.5em;
   border: none;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 .navlink:hover {
-  background: lightgoldenrodyellow;
+  background: #3c5c5c;
+  color: white;
 }
 
 .selected-contents-container {
@@ -131,16 +129,12 @@ a {
 }
 
 .selfie {
+  display: flex;
   width: 50%;
-  margin: auto;
+  justify-content: center;
 }
 
 .selfie img {
-  background-color: #fff;
-  /* object-fit: cover;
-  border-radius: 100px;
-  overflow: hidden;
-  height: 150px; */
-  width: 150px;
+  width: 250px;
 }
 
