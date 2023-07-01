@@ -39,16 +39,14 @@ function Experience() {
                         </div>
                     </div>
                 </div>
-                { showDetails['H1']===true ? 
-                    <ul className="job-blurb" style={{
-                        transition: 'opacity 0.5s ease-in'
-                      }}> 
-                        <li>Led mechanical and electrical development of the company's first suite of electromechanical grooming products.</li>
-                        <li>Became a team subject matter expert in light pipe design, electromechanical waterproofing design, and button UX.</li>
-                        <li>Created and launched 10+ original templates and processes to increase work efficiency and traceability.</li>
-                        <li>Program Managed DE&I Education and Awareness Initiative with team of 10.</li>
-                    </ul>
-                : null }
+                    <div id='job-blurb' className={showDetails['H1'] ? 'reveal-me': 'hide-me'}>
+                        <ul> 
+                            <li>Led mechanical and electrical development of the company's first suite of electromechanical grooming products.</li>
+                            <li>Became a team subject matter expert in light pipe design, electromechanical waterproofing design, and button UX.</li>
+                            <li>Created and launched 10+ original templates and processes to increase work efficiency and traceability.</li>
+                            <li>Program Managed DE&I Education and Awareness Initiative with team of 10.</li>
+                        </ul>
+                    </div>
                 <div className="job-block" onClick={(e => handleDropDown(e, 'H2'))}>
                     <img className="logo" src={H}></img>
                     <div className="employeer">
@@ -65,14 +63,14 @@ function Experience() {
                         </div>
                     </div>
                 </div>
-                { showDetails['H2']===true ? 
-                    <ul className="job-blurb"> 
-                        <li>Designed and launched 5 products using injection molding, die-casting, and sheet-metal manufacturing methods.</li>
-                        <li>Led design improvements on 5+ critical-to-function part upgrades in complex assemblies.</li>
-                        <li>Rapid-Prototyped using 3D printing, casting, molding, sheet metal forming, and machining.</li>
-                        <li>Leveraged CMs and tooling vendors to support and improve existing or developing products.</li>
-                    </ul>
-                : null }
+                    <div id='job-blurb' className={showDetails['H2'] ? 'reveal-me': 'hide-me'}>
+                        <ul>
+                            <li>Designed and launched 5 products using injection molding, die-casting, and sheet-metal manufacturing methods.</li>
+                            <li>Led design improvements on 5+ critical-to-function part upgrades in complex assemblies.</li>
+                            <li>Rapid-Prototyped using 3D printing, casting, molding, sheet metal forming, and machining.</li>
+                            <li>Leveraged CMs and tooling vendors to support and improve existing or developing products.</li>
+                        </ul>
+                    </div>
                 <div className="job-block" onClick={(e => handleDropDown(e, 'T'))}>
                     <img className="logo" src={T}></img>
                     <div className="employeer">
@@ -89,13 +87,13 @@ function Experience() {
                         </div>
                     </div>
                 </div>
-                { showDetails['T']===true ? 
-                    <ul className="job-blurb"> 
-                        <li>Prototyped improvements on dynamic parts of the Tesla Model 3's center console and cup holder components.</li>
-                        <li>Reduced production cost and improved ergonomics of existing parts via extensive testing and SOP development.</li>
-                        <li>Designed testing protocols and trained technicians; gathered and analyzed the data to validate design changes.</li>
-                    </ul>
-                : null }
+                    <div id='job-blurb' className={showDetails['T'] ? 'reveal-me': 'hide-me'}>
+                        <ul> 
+                            <li>Prototyped improvements on dynamic parts of the Tesla Model 3's center console and cup holder components.</li>
+                            <li>Reduced production cost and improved ergonomics of existing parts via extensive testing and SOP development.</li>
+                            <li>Designed testing protocols and trained technicians; gathered and analyzed the data to validate design changes.</li>
+                        </ul>
+                    </div>
                 <div className="job-block" onClick={(e => handleDropDown(e, 'iR'))}>
                     <img className="logo" src={iRobot}></img>
                     <div className="employeer">
@@ -112,13 +110,13 @@ function Experience() {
                         </div>
                     </div>
                 </div>
-                { showDetails['iR']===true ? 
-                    <ul className="job-blurb"> 
-                      <li>Designed and implemented testing protocols to ensure robots met government and customer specifications.</li>
-                      <li>Performed hardware diagnostics and software debugging on robot's critical Lidar sensors.</li>
-                      <li>Prototyped water-proofing improvements to extend life of robot by 50% when exposed to liquid.</li>
-                    </ul>
-                : null }
+                    <div id='job-blurb' className={showDetails['iR'] ? 'reveal-me': 'hide-me'}>
+                        <ul className="job-blurb"> 
+                        <li>Designed and implemented testing protocols to ensure robots met government and customer specifications.</li>
+                        <li>Performed hardware diagnostics and software debugging on robot's critical Lidar sensors.</li>
+                        <li>Prototyped water-proofing improvements to extend life of robot by 50% when exposed to liquid.</li>
+                        </ul>
+                    </div>
             </div>
         </div>
     )

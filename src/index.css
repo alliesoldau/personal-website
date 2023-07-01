@@ -197,10 +197,34 @@ a {
   justify-content: center;
 }
 
-.job-blurb {
+#job-blurb.hide-me {
+  max-height: 0;
+  overflow: hiden;
+  color: white;
+  transition: max-height .2s ease-out;
+  font-family: 'Lato';
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#job-blurb.reveal-me {
   font-family: 'Lato';
   line-height: 1.5em;
+  overflow: hidden;
+  transition: max-height .2s ease-in;
+  height: auto;
+  max-height: 200px;
+  animation: fadeIn 1s;
 }
+
 
 .icon-dd {
   margin-right: 0.75em;
