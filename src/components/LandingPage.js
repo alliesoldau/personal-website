@@ -1,11 +1,22 @@
 import selfie from '../images/me.jpeg'
-
+import { SocialIcon } from 'react-social-icons';
+//https://jaketrent.github.io/react-social-icons/
+import Resume from '../images/Resume.pdf';
+import Experience from "./Experience"
+import Volunteerism from "./Volunteerism"
 
 function LandingPage() {
 
   return (
+    <>
+      <div id="greeting">
+        <p className="hi-there">Hi there!</p>
+        <p className="blurb">I'm a Mechanical Engineer turned <b>Software Developer</b></p>
+        <p className="blurb">and *insert cycling passions*</p>
+      </div>
       <div className="selected-contents-container">
-        <h1>Hi there . . . </h1>
+    
+        <h1>About Me</h1>
         <div className="content">
           <div className="blurb">
             <p>I'm Allie! I am experienced in Full Stack Development with a focus on JavaScript, 
@@ -21,7 +32,18 @@ function LandingPage() {
             <img src={selfie}></img>
           </div>
         </div>
-      </div>
+            <p>email</p>
+            <div className="icon-links">
+                <SocialIcon className="social-link" bgColor="#3f3e3e" style={{ height: 45, width: 45 }} url="https://linkedin.com/in/allie-soldau" target="_blank"/>
+                <SocialIcon className="social-link" bgColor="#3f3e3e" style={{ height: 45, width: 45 }} url="https://github.com/alliesoldau" target="_blank" />
+                <SocialIcon className="social-link" bgColor="#3f3e3e" style={{ height: 45, width: 45 }} url="mailto:alliesoldau@gmail.com" target="_blank"/>
+                <SocialIcon className="social-link" bgColor="#3f3e3e" style={{ height: 45, width: 45 }} url="https://medium.com/@alliesoldau" target="_blank"/>
+                <SocialIcon className="social-link" bgColor="#3f3e3e" style={{ height: 45, width: 45 }} url="https://www.instagram.com/alliesoldau/" target="_blank"/>
+                <a className="resume" href = {Resume} target = "_blank">RESUME</a>
+            </div>
+        </div>
+      </>
+
   )
 
 }

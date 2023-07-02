@@ -1,25 +1,32 @@
-import { NavLink } from 'react-router-dom'
-import Resume from '../images/Resume.pdf';
-
-
 function NavBar() {
+
+    function handleClickAbout()  {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          });
+        };
+
+    function handleClickExperience() {
+        window.scrollTo({
+            top: 1150,
+            behavior: "smooth"
+          });
+        };
+
+    function handleClickVolunteerism() {
+        window.scrollTo({
+            top: 3700,
+            behavior: "smooth"
+          });
+        };
 
     return (
         <>
             <div className="navbar-container">
-                <NavLink to="/experience" >
-                    <p className="navlink">EXPERIENCE</p>
-                </NavLink>
-                <NavLink to="/projects" >
-                    <p className="navlink">PROJECTS</p>
-                </NavLink>
-                <NavLink to="/volunteerism" >
-                    <p className="navlink">VOLUNTEERISM</p>
-                </NavLink>
-                <NavLink to="/passions" >
-                    <p className="navlink">PASSIONS</p>
-                </NavLink>
-                <a className="resume" href = {Resume} target = "_blank">RESUME</a>
+                    <p className="navlink" value='About' onClick={handleClickAbout}>About</p>
+                    <p className="navlink" onClick={handleClickExperience}>Experience</p>
+                    <p className="navlink" onClick={handleClickVolunteerism}>Volunteerism</p>
             </div> 
         </>
     )
