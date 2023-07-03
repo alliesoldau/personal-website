@@ -1,6 +1,6 @@
 function Volunteerism() {
     return(
-        <div className="selected-contents-container">
+        <div className="Volunteerism">
             <h1>Volunteerism . . .</h1>
             <div>
                 <p>content</p>

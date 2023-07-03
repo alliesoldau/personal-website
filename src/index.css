@@ -2,37 +2,98 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 :root {
-  --corn: #A9C4F5;
+  --corn: #99ccff;
   --darkgreen: #095256;
   --cream: #EFF7CF;
   --lightgreen: #BAD9B5;
   --orange: #FF9B42;
+  --pink: #f905b4;
 }
 
 body {
   margin: 0;
-  height: 100vh;
+  /* height: 100vh; */
 }
+
+dd {
+  display: list-item;
+  list-style-type: "‣";
+  padding-inline-start: 1ch;
+}
+
 
 .app {
   display: flex;
   flex-flow: column;
   height: 100vh;
   font-family: 'Lato';
+  background-color: var(--corn);
+}
+
+.Page1, .Page2, .Page3 {
+  width: 100%;
+  margin: 0;
+  border: 0;
+  z-index: -1;
 }
 
 .header {
-  width: 100%;
+  width: 20%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   position: fixed;
   justify-content: space-between;
-  background-color: white;
-
+  background-color: none;
+  padding-top: 1em;
+  padding: 1em;
 }
 
+.AboutMe {
+  background-color: var(--orange);
+  margin: 0;
+  z-index: 1;
+  height: auto;
+}
+
+.AboutMe h1 {
+  margin: 0;
+  margin-left: 25%;
+}
+
+.Experience {
+  background-color: var(--lightgreen);
+  margin: 0;
+  z-index: 1;
+  height: auto;
+}
+
+.Experience h1 {
+  margin: 0;
+  margin-left: 25%;
+}
+
+.Experience h2 {
+  margin-left: 25%;
+}
+
+.Volunteerism {
+  background-color: var(--darkgreen);
+  margin: 0;
+  z-index: 1;
+  height: auto;
+}
+
+.Volunteerism p {
+  margin: 0;
+}
+
+.Volunteerism h1 {
+  margin: 0;
+}
+
+
 .icon-links {
-  margin-right: 2em;
+  margin-left: 25%;
 }
 
 .social-link {
@@ -50,6 +111,7 @@ body {
   background: white;
   margin-top: 12vh;
   /* margin-left: 20%; */
+  background-color: var(--corn);
 }
 
 .home-btn {
@@ -66,8 +128,6 @@ body {
   font-size: 2em;
   color: black;
   margin: 0;
-  margin-top: 0.75em;
-  margin-left: 0.75em;
 }
 
 a {
@@ -76,20 +136,17 @@ a {
 
 .navbar-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-right: 10em;
   font-size: 0.85em;
-  width: 12em;
+  line-height: 0.5em;
   justify-content: center;
+  margin-top: 10%;
 }
 
 .navbar-container p {
-  color: #283d3d;
   font-size: 1.25em;
-  font-weight: bold;
-  padding: 0.5em;
   border: none;
-  border-radius: 5px;
 }
 
 .title {
@@ -108,32 +165,13 @@ a {
 }
 
 .navlink:hover {
-  background: #3c5c5c;
-  color: white;
-}
-
-.selected-contents-container {
-  width: 100%;
-  /* height: 100%; */
-  display: flex;
-  flex-direction: column;
-}
-
-.selected-contents-container h1 {
-  font-size: 2.5em;
-  color: #005555;
-}
-
-.selected-contents-container p {
-  font-size: 1em;
-}
-
-.selected-contents-container .blurb {
-  width: 50%;
+  font-weight: bold;
+  color: var(--pink)
 }
 
 .content {
   width: 100%;
+  margin-left: 20%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -144,9 +182,8 @@ a {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 100vh;
+  height: 20vh;
   margin: 0;
-  background-color: var(--corn);
 } 
 
 #greeting .blurb {
@@ -161,7 +198,12 @@ a {
 #greeting .hi-there {
   font-size: 4em;
   width: 100%;
+  padding-top: 5%;
   margin-left: 20%;
+}
+
+#greeting p {
+  z-index: 1;
 }
 
 .selfie {
@@ -177,37 +219,53 @@ a {
   height: 100%;
   display: flex;
   flex-direction: column;
+  margin-left: 20%;
 }
 
 .job-block {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   overflow: hidden;
   margin: 0.5em;
   margin-bottom: 0;
+  border: 1px solid var(--lightgreen);
+  border-radius: 0.5em;
+  background: var(--lightgreen);
 }
 
-.employeer {
-  margin-right: 2em;
-  margin-left: 1em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 15%;
+.job-block:hover {
+  filter: brightness(1.1);
+  transition: filter 300ms;
+  box-shadow: 0 0 10px 10px var(--lightgreen);
 }
 
-.drop-down {
+.job {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  font-size: 1.25em;
 }
 
 .position {
+  margin-right: 1em;
+  margin-left: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.employeer {
   display: flex;
   flex-direction: column;
-  font-size: 1.25em;
+  font-size: 1em;
   justify-content: center;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+a.employeer  {
+  text-decoration: none;
+  color: var(--pink);
 }
 
 #job-blurb {
@@ -216,16 +274,13 @@ a {
   transition: max-height .2s ease-in;
   height: auto;
   max-height: 200px;
-  margin-left: 3.2em;
   margin-bottom: 2em;
   margin-top: 0;
-  /* animation: fadeIn 1s; */
 }
 
 #job-blurb ul {
   margin: 0;
 }
-
 
 .icon-dd {
   margin-right: 0.75em;
