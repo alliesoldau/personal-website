@@ -50,14 +50,28 @@ dd {
 }
 
 .AboutMe {
+  display: flex;
+  flex-direction: column;
   background-color: var(--orange);
   margin: 0;
+  top: 120vh;
   z-index: 1;
-  height: auto;
+  position: absolute;
+  height: 0;
+  padding-right: 10%;
+  padding-left: 25%;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+.AboutMe .textAndImage {
+  display: flex;
+  flex-direction: row;
 }
 
 .PrideMonthisAllYearMyDudes {
   color: #00000092;
+  font-size: 0.9em;
 }
 
 .AboutMe h1 {
@@ -97,13 +111,8 @@ dd {
   margin: 0;
 }
 
-
-.icon-links {
-  margin-left: 30%;
-}
-
 .social-link {
-  margin: .5em;
+  margin-right: .5em;
 }
 
 .social-link:hover {
@@ -172,14 +181,6 @@ a {
   color: var(--pink)
 }
 
-.content {
-  width: 100%;
-  margin-left: 20%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 
 #greeting {
   display: flex;
@@ -209,7 +210,9 @@ a {
 
 .selfie {
   display: flex;
-  width: 30%;
+  height: 50%;
+  margin: auto;
+  margin-left: 10%;
 }
 
 .selfie img {
@@ -282,18 +285,4 @@ a.employeer  {
 
 #job-blurb ul {
   margin: 0;
-}
-
-.icon-dd {
-  margin-right: 0.75em;
-  display: flex;
-  flex-direction: column;
-  font-size: 1.5em;
-  justify-content: center;
-}
-
-.logo {
-  margin: auto;
-  width: 3em;
-  height: 3em;
 }
