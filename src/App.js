@@ -20,16 +20,14 @@ function App() {
   return (
     <div className="app">
       <Header />
-
       <div className="page-container">
-
-            <LandingPage />
-            <img className="Page1" src={Page1} />
-            <AboutMe />
-            <img className="Page2" src={Page2} />
-            <Experience />
-            <img className="Page3" src={Page3} />
-            <Volunteerism />
+          <LandingPage />
+          <img className="Page1" src={Page1} />
+          <AboutMe />
+          <img className="Page2" src={Page2} />
+          <Experience />
+          <img className="Page3" src={Page3} />
+          <Volunteerism />
       </div>
     </div>
   );
