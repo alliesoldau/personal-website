@@ -11,34 +11,36 @@ function Experience() {
                 <div className="job-block" >
                     <div className="job">
                         <p className="position">Senior Product Design Engineer</p>
-                        <p>~</p>
+                        <p>⸻</p>
                         <a className="employeer" href="https://www.harrys.com/en/us" target="_blank" style={{display: "table-cell"}}>
                             <p>Harry's</p>
                         </a>
                     </div>
                     <div id='job-blurb' >
                         <dl> 
-                            <dd>Led mechanical and electrical development of the company's first suite of electromechanical grooming products.</dd>
-                            <dd>Became a team subject matter expert in light pipe design, electromechanical waterproofing design, and button UX.</dd>
-                            <dd>Created and launched 10+ original templates and processes to increase work efficiency and traceability.</dd>
-                            <dd>Program Managed DE&I Education and Awareness Initiative with team of 10.</dd>
+                            <dd>Led development of company's first suite of electromechanical products.</dd>
+                            <dd>Became subject matter expert in light pipe design,  and button UX.</dd>
+                            <dd>Facilitated testing protocols for electromechanical waterproofing (IP7).</dd>
+                            <dd>Launched 10+ templates/processes to increase efficiency and traceability.</dd>
+                            <dd>Program Managed DE&I Ed. and Awareness Initiative; 9 programs.</dd>
                         </dl>
                     </div>
                 </div>
                 <div className="job-block" >
                     <div className="job">
                     <p className="position">Associate Product Design Engineer</p>
-                        <p>~</p>
+                        <p>⸻</p>
                         <a className="employeer" href="https://www.harrys.com/en/us" target="_blank" style={{display: "table-cell"}}>
                             <p>Harry's</p>
                         </a>
                     </div>
                     <div id='job-blurb' >
                         <dl>
-                            <dd>Designed and launched 5 products using injection molding, die-casting, and sheet-metal manufacturing methods.</dd>
-                            <dd>Led design improvements on 5+ critical-to-function part upgrades in complex assemblies.</dd>
-                            <dd>Rapid-Prototyped using 3D printing, casting, molding, sheet metal forming, and machining.</dd>
-                            <dd>Leveraged CMs and tooling vendors to support and improve existing or developing products.</dd>
+                            <dd>Designed and launched 5 consumer goods products.</dd>
+                            <dd>Mastered molding, die-casting, and sheet-metal manufacturing methods.</dd>
+                            <dd>Led design improvements on 5+ critical-to-function part upgrades.</dd>
+                            <dd>Rapid-Prototyped using 3D printing, casting, molding, and machining.</dd>
+                            <dd>Leveraged CMs and tooling vendors to support existing products.</dd>
                         </dl>
                     </div>
                     </div>
@@ -46,7 +48,7 @@ function Experience() {
                     
                     <div className="job">
                     <p className="position">Design Engineering Coop</p>
-                        <p>~</p>
+                        <p>⸻</p>
                     <a className="employeer" href="https://www.tesla.com/" target="_blank" style={{display: "table-cell"}}>
                         <p>Tesla</p>
                     </a> 
@@ -62,7 +64,7 @@ function Experience() {
                 <div className="job-block">
                     <div className="job">
                     <p className="position">Systems Engineering Coop</p>
-                        <p>~</p>
+                        <p>⸻</p>
                         <a className="employeer" href="https://www.irobot.com/" target="_blank" style={{display: "table-cell"}}>
                             <p>iRobot</p>
                         </a>

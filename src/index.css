@@ -200,17 +200,15 @@ h2 {
 }
 
 .job-block {
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  margin-bottom: 0;
-  border: 1px solid var(--lightgreen);
-  border-radius: 0.5em;
-  background: var(--lightgreen);
+  background-color: var(--black);
+  border-radius: 10px;
+  height: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .job-block:hover {
-  filter: brightness(1.1);
+  filter: brightness(1.25);
   transition: filter 300ms;
 }
 
@@ -239,14 +237,13 @@ h2 {
 
 a.employeer  {
   text-decoration: none;
-  color: var(--pink);
+  color: var(--orange);
 }
 
 #job-blurb {
   line-height: 1.5em;
   overflow: hidden;
   transition: max-height .2s ease-in;
-  /* height: auto; */
   max-height: 200px;
   margin-bottom: 2em;
   margin-top: 0;
