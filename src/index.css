@@ -2,17 +2,32 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 :root {
-  --corn: #99ccff;
-  --darkgreen: #095256;
-  --cream: #EFF7CF;
-  --lightgreen: #BAD9B5;
-  --orange: #FF9B42;
-  --pink: #f905b4;
+  --russet: #7A4419;
+  --black: #011627;
+  --platinum: #E2E2E2;
+  --timberwolf: #D8D4D5;
+  --orange: #EE6352;
+  --sage: #ACAD94;
+  --brightblue: #00FDCF;
 }
 
 body {
   margin: 0;
-  /* height: 100vh; */
+  height: 100vh;
+  background-color: var(--black);
+  color: var(--platinum);
+  /* cursor: none; */
+}
+
+.cursor {
+  background-color: var(--orange);
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* pointer-events: none; */
 }
 
 dd {
@@ -21,21 +36,12 @@ dd {
   padding-inline-start: 1ch;
 }
 
-
 .app {
   display: flex;
   flex-flow: column;
   height: 100vh;
   font-family: 'Lato';
-  background-color: var(--corn);
-}
-
-.Page1, .Page2, .Page3 {
-  width: 100%;
-  margin: 0;
-  border: 0;
-  z-index: -1;
-  vertical-align: middle;
+  background-color: var(--darkgreen);
 }
 
 .header {
@@ -49,15 +55,99 @@ dd {
   padding: 1em;
 }
 
+.page-container {
+  margin-top: 12vh;
+  background-color: var(--black);
+}
+
+.home-btn {
+  display: flex;
+}
+
+.home-btn:hover {
+  font-weight: bold;
+  filter: brightness(1.75);
+  transition: filter 500ms;
+}
+
+.home-btn p.name {
+  font-family: 'Sora';
+  font-size: 1.5em;
+  color: var(--platinum);
+  margin: 0;
+  position: relative;
+  white-space: nowrap;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10em;
+  font-size: 0.75em;
+  line-height: 0.5em;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.navbar-container p {
+  font-size: 1.25em;
+  border: none;
+}
+
+#LandingPage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  margin-left: 25%;
+} 
+
+#LandingPage .blurb, .blurb-cycle {
+  font-size: 1.75em;
+  margin-bottom: 0;
+  line-height: 2em;
+  margin: 0;
+  margin-right: 40%;
+}
+
+.blurb-cycle {
+  opacity: 0;
+  animation: fade-in 1s ease-in forwards, fade-out 3s 1s ease-out forwards;
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#LandingPage .hi-there {
+  font-size: 3.5em;
+  width: 100%;
+  padding-top: 5%;
+  color: var(--brightblue);
+}
+
 .AboutMe {
   display: flex;
   flex-direction: column;
-  background-color: var(--orange);
   margin: 0;
-  top: 120vh;
-  z-index: 1;
-  position: absolute;
-  height: 0;
   padding-right: 10%;
   padding-left: 25%;
   font-size: 1.2em;
@@ -70,7 +160,7 @@ dd {
 }
 
 .PrideMonthisAllYearMyDudes {
-  color: #00000092;
+  color: var(--timberwolf);
   font-size: 0.9em;
 }
 
@@ -80,10 +170,7 @@ dd {
 }
 
 .Experience {
-  background-color: var(--lightgreen);
   margin: 0;
-  z-index: 1;
-  height: auto;
 }
 
 .Experience h1 {
@@ -97,10 +184,8 @@ dd {
 }
 
 .Volunteerism {
-  background-color: var(--darkgreen);
   margin: 0;
-  z-index: 1;
-  height: auto;
+  /* height: auto; */
 }
 
 .Volunteerism p {
@@ -120,47 +205,6 @@ dd {
   transition: filter 300ms;
 }
 
-.page-container {
-  background: white;
-  margin-top: 12vh;
-  background-color: var(--corn);
-}
-
-.home-btn {
-  display: flex;
-  transition: filter 300ms;
-}
-
-.home-btn p.name:hover {
-  font-weight: bold;
-}
-
-.home-btn p.name {
-  font-family: 'Sora';
-  font-size: 2em;
-  color: black;
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-.navbar-container {
-  display: flex;
-  flex-direction: column;
-  margin-right: 10em;
-  font-size: 0.85em;
-  line-height: 0.5em;
-  justify-content: center;
-  margin-top: 10%;
-}
-
-.navbar-container p {
-  font-size: 1.25em;
-  border: none;
-}
-
 .title {
   display: flex;
   flex-direction: row;
@@ -177,46 +221,8 @@ a {
 }
 
 .navlink:hover {
-  font-weight: bold;
-  color: var(--pink)
-}
-
-
-#greeting {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 20vh;
-  margin-left: 25%;
-} 
-
-#greeting .blurb {
-  font-size: 1.75em;
-  margin-bottom: 0;
-  line-height: 2em;
-  margin: 0;
-  margin-right: 40%;
-}
-
-#greeting .hi-there {
-  font-size: 4em;
-  width: 100%;
-  padding-top: 5%;
-}
-
-#greeting p {
-  z-index: 1;
-}
-
-.selfie {
-  display: flex;
-  height: 50%;
-  margin: auto;
-  margin-left: 10%;
-}
-
-.selfie img {
-  width: 250px;
+  color: var(--orange);
+  filter: brightness(1.25);
 }
 
 .jobs {
@@ -241,7 +247,6 @@ a {
 .job-block:hover {
   filter: brightness(1.1);
   transition: filter 300ms;
-  box-shadow: 0 0 10px 10px var(--lightgreen);
 }
 
 .job {
@@ -277,7 +282,7 @@ a.employeer  {
   line-height: 1.5em;
   overflow: hidden;
   transition: max-height .2s ease-in;
-  height: auto;
+  /* height: auto; */
   max-height: 200px;
   margin-bottom: 2em;
   margin-top: 0;

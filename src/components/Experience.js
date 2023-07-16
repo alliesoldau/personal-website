@@ -1,14 +1,9 @@
-// import React, { useState } from 'react'
-// import H from '../images/H.jpeg';
-// import T from '../images/T.jpg';
-// import iRobot from '../images/iRobot.png';
 import Resume from '../images/Resume.pdf';
 
 function Experience() {
 
     return (
         <div className="Experience">
-            {/* <h1>Experience . . .</h1> */}
             <h2>Projects</h2>
             <h2>Skills</h2>
             <h2>Professional Experience</h2>

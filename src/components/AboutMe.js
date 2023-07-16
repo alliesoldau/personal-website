@@ -1,7 +1,5 @@
-import selfie from '../images/me.jpeg'
+// import selfie from '../images/me.jpeg'
 import { SocialIcon } from 'react-social-icons';
-//https://jaketrent.github.io/react-social-icons/
-// import Resume from '../images/Resume.pdf';
 
 function AboutMe() {
 
@@ -21,18 +19,17 @@ function AboutMe() {
                 to bringing projects from concept to shelf.
               </p>
             </div>
-            <div className="selfie">
+            {/* <div className="selfie">
               <img src={selfie}></img>
-            </div>
+            </div> */}
         </div>
           <div className="icon-links">
               <p className="PrideMonthisAllYearMyDudes"><i>alliesoldau@gmail.com | 603-289-8879 | Albany, NY</i></p>
-              <SocialIcon className="social-link" fgColor="#095256" bgColor="#EFF7CF" style={{ height: 45, width: 45 }} url="https://linkedin.com/in/allie-soldau" target="_blank"/>
-              <SocialIcon className="social-link" fgColor="#095256" bgColor="#EFF7CF" style={{ height: 45, width: 45 }} url="https://github.com/alliesoldau" target="_blank" />
-              <SocialIcon className="social-link" fgColor="#095256" bgColor="#EFF7CF" style={{ height: 45, width: 45 }} url="mailto:alliesoldau@gmail.com" target="_blank"/>
-              <SocialIcon className="social-link" fgColor="#095256" bgColor="#EFF7CF" style={{ height: 45, width: 45 }} url="https://medium.com/@alliesoldau" target="_blank"/>
-              <SocialIcon className="social-link" fgColor="#095256" bgColor="#EFF7CF" style={{ height: 45, width: 45 }} url="https://www.instagram.com/alliesoldau/" target="_blank"/>
-              {/* <a className="resume" href = {Resume} target = "_blank">RESUME</a> */}
+              <SocialIcon className="social-link" fgColor="#011627" bgColor="#D8D4D5" style={{ height: 45, width: 45 }} url="https://linkedin.com/in/allie-soldau" target="_blank"/>
+              <SocialIcon className="social-link" fgColor="#011627" bgColor="#D8D4D5" style={{ height: 45, width: 45 }} url="https://github.com/alliesoldau" target="_blank" />
+              <SocialIcon className="social-link" fgColor="#011627" bgColor="#D8D4D5" style={{ height: 45, width: 45 }} url="mailto:alliesoldau@gmail.com" target="_blank"/>
+              <SocialIcon className="social-link" fgColor="#011627" bgColor="#D8D4D5" style={{ height: 45, width: 45 }} url="https://medium.com/@alliesoldau" target="_blank"/>
+              <SocialIcon className="social-link" fgColor="#011627" bgColor="#D8D4D5" style={{ height: 45, width: 45 }} url="https://www.instagram.com/alliesoldau/" target="_blank"/>
           </div>
       </div>
     )
