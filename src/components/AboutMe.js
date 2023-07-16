@@ -1,4 +1,3 @@
-// import selfie from '../images/me.jpeg'
 import { SocialIcon } from 'react-social-icons';
 
 function AboutMe() {
@@ -7,7 +6,7 @@ function AboutMe() {
         <div className="AboutMe">
           <div className="textAndImage">
             <div className="blurb">
-              <p>I'm Allie <span className="PrideMonthisAllYearMyDudes">(they/them)</span>!</p> 
+              <h2>About Me</h2> 
               <p>I am experienced in <b>Full Stack Development</b> with a focus on JavaScript, 
                 React.js, Ruby on Rails, and Python. I'm passionate about <b>data structures</b> and front end
                 design that emphasizes accessibility.
@@ -19,17 +18,14 @@ function AboutMe() {
                 to bringing projects from concept to shelf.
               </p>
             </div>
-            {/* <div className="selfie">
-              <img src={selfie}></img>
-            </div> */}
         </div>
           <div className="icon-links">
-              <p className="PrideMonthisAllYearMyDudes"><i>alliesoldau@gmail.com | 603-289-8879 | Albany, NY</i></p>
-              <SocialIcon className="social-link" fgColor="#011627" bgColor="#D8D4D5" style={{ height: 45, width: 45 }} url="https://linkedin.com/in/allie-soldau" target="_blank"/>
-              <SocialIcon className="social-link" fgColor="#011627" bgColor="#D8D4D5" style={{ height: 45, width: 45 }} url="https://github.com/alliesoldau" target="_blank" />
-              <SocialIcon className="social-link" fgColor="#011627" bgColor="#D8D4D5" style={{ height: 45, width: 45 }} url="mailto:alliesoldau@gmail.com" target="_blank"/>
-              <SocialIcon className="social-link" fgColor="#011627" bgColor="#D8D4D5" style={{ height: 45, width: 45 }} url="https://medium.com/@alliesoldau" target="_blank"/>
-              <SocialIcon className="social-link" fgColor="#011627" bgColor="#D8D4D5" style={{ height: 45, width: 45 }} url="https://www.instagram.com/alliesoldau/" target="_blank"/>
+              <p><i>alliesoldau@gmail.com | 603-289-8879 | Albany, NY</i></p>
+              <SocialIcon className="social-link" fgColor="#011627" bgColor="#D8D4D5" style={{ height: 30, width: 30 }} url="https://linkedin.com/in/allie-soldau" target="_blank"/>
+              <SocialIcon className="social-link" fgColor="#011627" bgColor="#D8D4D5" style={{ height: 30, width: 30 }} url="https://github.com/alliesoldau" target="_blank" />
+              <SocialIcon className="social-link" fgColor="#011627" bgColor="#D8D4D5" style={{ height: 30, width: 30 }} url="mailto:alliesoldau@gmail.com" target="_blank"/>
+              <SocialIcon className="social-link" fgColor="#011627" bgColor="#D8D4D5" style={{ height: 30, width: 30 }} url="https://medium.com/@alliesoldau" target="_blank"/>
+              <SocialIcon className="social-link" fgColor="#011627" bgColor="#D8D4D5" style={{ height: 30, width: 30 }} url="https://www.instagram.com/alliesoldau/" target="_blank"/>
           </div>
       </div>
     )

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import ScrollArrow from '../images/Scroll.png'
 
 const loopArr = [
   "a self-taught wood worker.",
@@ -32,6 +33,9 @@ function LandingPage() {
         <p className="hi-there">Hi there!</p>
         <p className="blurb">I'm a Mechanical Engineer turned Software Developer</p>
         <p className="blurb-cycle" key={loopArr[index]}>and {loopArr[index]}</p>
+        <div className="Scroll-Arrow-Div">
+          <img style={{width: "80px"}} src={ScrollArrow}  />
+        </div>
       </div>
     </>
   )

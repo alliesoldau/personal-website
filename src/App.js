@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { motion } from 'framer-motion';
 import LandingPage from './components/LandingPage'
 import AboutMe from './components/AboutMe'
 import Experience from './components/Experience'
@@ -33,7 +32,7 @@ function App() {
 
   return (
     <>
-    <div className="cursor" style={{transform: `translate(${mousePos.x - 10}px, ${mousePos.y - 10}px)`,}}/>
+    <div className="cursor" style={{transform: `translate(${mousePos.x - 7.5}px, ${mousePos.y - 7.5}px)`,}}/>
     <div className="app">
       <Header />
       <div className="page-container">
