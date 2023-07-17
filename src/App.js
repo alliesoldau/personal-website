@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import LandingPage from './components/LandingPage'
 import AboutMe from './components/AboutMe'
 import Experience from './components/Experience'
-import ProfExperience from './components/ProfExperience'
 // import Volunteerism from './components/Volunteerism'
 import Header from './components/Header'
 import db from './db.json';
@@ -11,6 +10,7 @@ import './App.css';
 function App() {
 
   const [mousePos, setMousePos] = useState({x:0, y:0});
+  console.log(mousePos.y)
 
   useEffect(() => {
     const handleMouseMove = (event) => {

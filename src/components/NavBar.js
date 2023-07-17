@@ -2,31 +2,39 @@ function NavBar() {
 
     function handleClickAbout()  {
         window.scrollTo({
-            top: 0,
+            top: 700,
+            behavior: "smooth"
+          });
+        };
+
+    function handleClickProjects() {
+        window.scrollTo({
+            top: 1400,
+            behavior: "smooth"
+          });
+        };
+
+    function handleClickSkills() {
+        window.scrollTo({
+            top: 2350,
             behavior: "smooth"
           });
         };
 
     function handleClickExperience() {
         window.scrollTo({
-            top: 1150,
+            top: 2900,
             behavior: "smooth"
-          });
-        };
-
-    function handleClickVolunteerism() {
-        window.scrollTo({
-            top: 3700,
-            behavior: "smooth"
-          });
+            });
         };
 
     return (
         <>
             <div className="navbar-container">
-                    {/* <p className="navlink" value='About' onClick={handleClickAbout}>About</p>
-                    <p className="navlink" onClick={handleClickExperience}>Experience</p> */}
-                    {/* <p className="navlink" onClick={handleClickVolunteerism}>Volunteerism</p> */}
+                    <p className="navlink" onClick={handleClickAbout}>About Me</p>
+                    <p className="navlink" onClick={handleClickProjects}>Projects</p>
+                    <p className="navlink" onClick={handleClickSkills}>Skills</p>
+                    <p className="navlink" onClick={handleClickExperience}>Experience</p>
             </div> 
         </>
     )

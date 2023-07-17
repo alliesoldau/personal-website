@@ -159,6 +159,7 @@ a {
   font-size: 1em;
   line-height: 1.5em;
   height: 100vh;
+  margin-right: 5em;
 }
 
 .contacts {
@@ -340,6 +341,7 @@ a.employeer  {
   padding: 1em;
   border-radius: 10px;
   box-shadow: 20px 20px rgba(226,226,226,.15);
+  margin-bottom: 10em;
 }
 
 .skill-badge {
