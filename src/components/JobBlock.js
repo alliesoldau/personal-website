@@ -3,8 +3,6 @@ import JobBullets from './JobBullets';
 
 function JobBlock({ jobDetails }) {
 
-    console.log('jobDetails', jobDetails)
-
     return(
         <div className="job-block" >
             <div className="job">
@@ -15,8 +13,8 @@ function JobBlock({ jobDetails }) {
                 </a>
             </div>
             <div id='job-blurb' >
-            <JobSkills jobSkills={jobDetails.skills} />
-            <JobBullets jobBullets={jobDetails.bullets}/>
+                <JobSkills jobSkills={jobDetails.skills} />
+                <JobBullets jobBullets={jobDetails.bullets}/>
             </div>
         </div>
     )

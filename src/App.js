@@ -39,7 +39,7 @@ function App() {
       <div className="page-container">
           <LandingPage />
           <AboutMe />
-          <Experience jobsArray={db.jobsArray}/>
+          <Experience jobsArray={db.jobsArray} projectsArray={db.projectsArray}/>
           {/* <Volunteerism /> */}
       </div>
     </div>

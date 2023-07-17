@@ -51,7 +51,7 @@ dd {
   margin-top: 20vh;
   background-color: var(--black);
   margin-left: 25%;
-  margin-right: 20%;
+  margin-right: 15%;
 }
 
 .header {
@@ -297,13 +297,14 @@ a.employeer  {
 
 .projects {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .project {
-  width: 45%;
+  width: 40%;
   padding: 1em;
 }
 
@@ -320,6 +321,7 @@ a.employeer  {
 .project-desc {
   font-style: italic;
   font-size: 0.9em;
+  width: 100%;
 }
 
 .project-skills {
