@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react'
 import LandingPage from './components/LandingPage'
 import AboutMe from './components/AboutMe'
 import Experience from './components/Experience'
-import Volunteerism from './components/Volunteerism'
+// import Volunteerism from './components/Volunteerism'
 import Header from './components/Header'
+import db from './db.json';
 import './App.css';
-
 
 function App() {
 
@@ -38,7 +38,7 @@ function App() {
       <div className="page-container">
           <LandingPage />
           <AboutMe />
-          <Experience />
+          <Experience/>
           {/* <Volunteerism /> */}
       </div>
     </div>

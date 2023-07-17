@@ -179,7 +179,7 @@ function Experience() {
                         <dl> 
                             <dd>Designed 5+ full stack applications using on JavaScript, React, and Ruby on Rails. </dd>
                             <dd>Demonstrated skills in full Software Life Cycle from concept work to deployment.</dd>
-                            <dd>Mastered with Figma, technical proposals, GitHub branch management, and unit testing..</dd>
+                            <dd>Mastered with Figma, technical proposals, GitHub branch management, and unit testing.</dd>
                             <dd>Collaborated with fellow engineers through pair programming and design reviews.</dd>
                         </dl>
                     </div>

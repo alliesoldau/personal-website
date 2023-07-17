@@ -1,0 +1,20 @@
+{
+    "jobsArray": [
+        {
+            "jobDetails": [
+                "position": "Full Stack Software Engineering Student",
+                "employer": "Flatiron School",
+                "employerLink": "https://flatironschool.com/welcome-to-flatiron-school/?utm_source=Google&utm_medium=ppc&utm_campaign=19999152388&utm_content=&utm_term=&uqaid=&Cj0KCQjwqs6lBhCxARIsAG8YcDhmVhd5_UBBsw5Swz_L_4DNOeuBw1_lDEfmI1vbogMqwk0GVnIXukcaAvwyEALw_wcB&gclid=Cj0KCQjwqs6lBhCxARIsAG8YcDhmVhd5_UBBsw5Swz_L_4DNOeuBw1_lDEfmI1vbogMqwk0GVnIXukcaAvwyEALw_wcB",
+                "skills": [
+                    "JavaScript", "React", "Ruby on Rails", "SQL", "ActiveRecord", "HTML/CSS", "RESTful APIs"
+                ],
+                "bullets": [
+                    "Designed 5+ full stack applications using on JavaScript, React, and Ruby on Rails.",
+                    "Demonstrated skills in full Software Life Cycle from concept work to deployment.",
+                    "Mastered with Figma, technical proposals, GitHub branch management, and unit testing.",
+                    "Collaborated with fellow engineers through pair programming and design reviews."
+                ]
+            ]
+        }
+    ]
+}
