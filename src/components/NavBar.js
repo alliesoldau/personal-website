@@ -24,9 +24,9 @@ function NavBar() {
     return (
         <>
             <div className="navbar-container">
-                    <p className="navlink" value='About' onClick={handleClickAbout}>About</p>
-                    <p className="navlink" onClick={handleClickExperience}>Experience</p>
-                    <p className="navlink" onClick={handleClickVolunteerism}>Volunteerism</p>
+                    {/* <p className="navlink" value='About' onClick={handleClickAbout}>About</p>
+                    <p className="navlink" onClick={handleClickExperience}>Experience</p> */}
+                    {/* <p className="navlink" onClick={handleClickVolunteerism}>Volunteerism</p> */}
             </div> 
         </>
     )

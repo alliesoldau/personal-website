@@ -35,7 +35,8 @@ body {
 dd {
   display: list-item;
   list-style-type: "‣";
-  padding-inline-start: 1ch;
+  padding-inline-start: 1em;
+  font-size: 0.9em;
 }
 
 .app {
@@ -160,8 +161,13 @@ a {
   height: 100vh;
 }
 
+.contacts {
+  opacity: 0.5;
+}
+
 h2 {
   color: var(--brightblue);
+  margin-top: 3em;
 }
 
 .social-link {
@@ -179,13 +185,24 @@ h2 {
 }
 
 .resume {
-  color: white;
-  font-weight: bold;
   padding: 0.5em;
   border: none;
-  border-radius: 5px;
-  background-color: grey;
-  margin-top: 2em;
+  border-radius: 3px;
+  width: auto;
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.resume a{
+  background-color: var(--orange);
+  color: var(--platinum);
+}
+
+.resume a:hover {
+  filter: brightness(1.25);
+  transition: filter 300ms;
 }
 
 .navlink:hover {
@@ -216,7 +233,6 @@ h2 {
   width: 100%;
   display: flex;
   flex-direction: row;
-  font-size: 1.25em;
 }
 
 .position {
@@ -224,6 +240,7 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-size: 1em;
 }
 
 .employeer {
@@ -240,15 +257,90 @@ a.employeer  {
   color: var(--orange);
 }
 
+.employer a:hover {
+  filter: brightness(2);
+  transition: filter 300ms;
+}
+
 #job-blurb {
   line-height: 1.5em;
   overflow: hidden;
-  transition: max-height .2s ease-in;
-  max-height: 200px;
-  margin-bottom: 2em;
   margin-top: 0;
 }
 
 #job-blurb ul {
   margin: 0;
+}
+
+.job-skills {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+.skill p {
+  background: var(--black);
+  color: var(--platinum);
+  border: 1px solid var(--timberwolf);
+  justify-content: space-between;
+  font-size: 0.75em;
+  text-align: center;
+  display: inline-block;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 2px 2px;
+  border-radius: 16px;
+  opacity: 0.5;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+}
+
+.project {
+  width: 45%;
+  padding: 1em;
+}
+
+.project-title a {
+  text-decoration: none;
+  color: var(--orange);
+}
+
+.project-title a:hover {
+  filter: brightness(1.75);
+  transition: filter 500ms;
+}
+
+.project-desc {
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.project-skills {
+  margin-top: 0.5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: var(--platinum);
+  justify-content: space-evenly;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 20px 20px rgba(226,226,226,.15);
+}
+
+.skill-badge {
+  height: 100px;
+  margin: 0.75em;
 }

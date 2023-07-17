@@ -39,7 +39,7 @@ function App() {
           <LandingPage />
           <AboutMe />
           <Experience />
-          <Volunteerism />
+          {/* <Volunteerism /> */}
       </div>
     </div>
     </>
