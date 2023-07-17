@@ -1,12 +1,12 @@
 import JobBlock from './JobBlock';
 
-function ProfExperience() {
+function ProfExperience({ jobsArray }) {
 
     const jobs = jobsArray.map((jobDetails, index) => {
         return(
             <JobBlock
                 key={index}
-                jobDetails={jobsArray.jobDetails}
+                jobDetails={jobDetails}
             />
         )
     })

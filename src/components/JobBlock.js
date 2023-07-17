@@ -3,6 +3,8 @@ import JobBullets from './JobBullets';
 
 function JobBlock({ jobDetails }) {
 
+    console.log('jobDetails', jobDetails)
+
     return(
         <div className="job-block" >
             <div className="job">

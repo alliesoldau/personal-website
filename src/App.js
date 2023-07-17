@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import LandingPage from './components/LandingPage'
 import AboutMe from './components/AboutMe'
 import Experience from './components/Experience'
+import ProfExperience from './components/ProfExperience'
 // import Volunteerism from './components/Volunteerism'
 import Header from './components/Header'
 import db from './db.json';
@@ -38,7 +39,7 @@ function App() {
       <div className="page-container">
           <LandingPage />
           <AboutMe />
-          <Experience/>
+          <Experience jobsArray={db.jobsArray}/>
           {/* <Volunteerism /> */}
       </div>
     </div>
