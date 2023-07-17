@@ -102,6 +102,11 @@ a {
   margin-top: 0.75em;
 }
 
+.navbar-container p.navlink-highlight {
+  color: var(--brightblue);
+  font-weight: bold;
+}
+
 #LandingPage {
   display: flex;
   flex-direction: column;
@@ -187,6 +192,8 @@ h2 {
 
 .resume {
   padding: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
   border: none;
   border-radius: 3px;
   width: auto;

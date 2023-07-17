@@ -1,4 +1,46 @@
+import React, { useState } from 'react';
+
 function NavBar() {
+
+    const [AboutMeH1, setAboutMeH1] = useState('navlink')
+    const [ProjectsH1, setProjectsH1] = useState('navlink')
+    const [SkillsH1, setSkillsH1] = useState('navlink')
+    const [ProfExperienceH1, setProfExperienceH1] = useState('navlink')
+    // TO DO: make nav bar scrolling legit
+    const changevalueonScroll=()=>{
+
+        const scrollValue=document.documentElement.scrollTop;
+        
+        if (scrollValue <= 699) {
+            setAboutMeH1('navlink')
+            setProjectsH1('navlink')
+            setSkillsH1('navlink')
+            setProfExperienceH1('navlink')
+        } else if (scrollValue >= 699 && scrollValue <= 1399){
+            setAboutMeH1('navlink-highlight')
+            setProjectsH1('navlink')
+            setSkillsH1('navlink')
+            setProfExperienceH1('navlink')
+        } else if (scrollValue >= 1399 && scrollValue <= 2200) {
+            setAboutMeH1('navlink')
+            setProjectsH1('navlink-highlight')
+            setSkillsH1('navlink')
+            setProfExperienceH1('navlink')
+        } else if (scrollValue >= 2200 && scrollValue <= 2899) {
+            setAboutMeH1('navlink')
+            setProjectsH1('navlink')
+            setSkillsH1('navlink-highlight')
+            setProfExperienceH1('navlink')
+        } else if (scrollValue >= 2900) {
+            setAboutMeH1('navlink')
+            setProjectsH1('navlink')
+            setSkillsH1('navlink')
+            setProfExperienceH1('navlink-highlight')
+        }
+    }
+    
+    window.addEventListener('scroll',changevalueonScroll);
+
 
     function handleClickAbout()  {
         window.scrollTo({
@@ -31,10 +73,10 @@ function NavBar() {
     return (
         <>
             <div className="navbar-container">
-                    <p className="navlink" onClick={handleClickAbout}>About Me</p>
-                    <p className="navlink" onClick={handleClickProjects}>Projects</p>
-                    <p className="navlink" onClick={handleClickSkills}>Skills</p>
-                    <p className="navlink" onClick={handleClickExperience}>Experience</p>
+                    <p className={AboutMeH1} onClick={handleClickAbout}>About Me</p>
+                    <p className={ProjectsH1} onClick={handleClickProjects}>Projects</p>
+                    <p className={SkillsH1} onClick={handleClickSkills}>Skills</p>
+                    <p className={ProfExperienceH1} onClick={handleClickExperience}>Experience</p>
             </div> 
         </>
     )
