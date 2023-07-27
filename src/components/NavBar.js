@@ -2,11 +2,13 @@ import React, { useState } from 'react';
 
 function NavBar() {
 
+    // TO DO: make nav bar scrolling legit
+
     const [AboutMeH1, setAboutMeH1] = useState('navlink')
     const [ProjectsH1, setProjectsH1] = useState('navlink')
     const [SkillsH1, setSkillsH1] = useState('navlink')
     const [ProfExperienceH1, setProfExperienceH1] = useState('navlink')
-    // TO DO: make nav bar scrolling legit
+    
     const changevalueonScroll=()=>{
 
         const scrollValue=document.documentElement.scrollTop;
