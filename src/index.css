@@ -339,11 +339,22 @@ a.employeer  {
   width: 100%;
 }
 
+.youtube {
+  display: flex;
+  flex-direction: center;
+  margin: auto;
+}
+
+.video {
+  margin: auto;
+}
+
 .project-skills {
   margin-top: 0.5em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 
 .skills-container {

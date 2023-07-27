@@ -13,13 +13,17 @@ function ProjectBlock({ projectDetails, projectsRef }) {
         </a>{" "}
       </p>
       <p className="project-desc">{projectDetails.description}</p>
-      <iframe
-        src={`${projectDetails.YouTubeLink}`}
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write"
-        allowfullscreen
-        title="video"
-      />
+      <div className="youtube">
+        <div className="video">
+          <iframe
+            src={`${projectDetails.YouTubeLink}`}
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write"
+            allowfullscreen
+            title="video"
+          />
+        </div>
+      </div>
       <ProjectSkills projectSkills={projectDetails.skills} />
     </div>
   );

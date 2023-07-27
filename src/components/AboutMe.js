@@ -8,7 +8,7 @@ function AboutMe({ aboutMeRef }) {
           <div className="blurb">
             <h2>About Me</h2>
             <p>
-              I am experienced in Full Stack Developmentwith a focus on
+              I am experienced in Full Stack Development with a focus on
               JavaScript, React.js, Ruby on Rails, and Python. I'm passionate
               about data structures and front end design that emphasizes
               accessibility.
