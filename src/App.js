@@ -6,6 +6,7 @@ import Experience from "./components/Experience";
 import Header from "./components/Header";
 import db from "./db.json";
 import "./App.css";
+import { FaWrench } from "react-icons/fa";
 
 function App() {
   const aboutMeRef = useRef(null);
@@ -67,34 +68,64 @@ function App() {
     }
   };
 
+  const [width, setWidth] = useState(Infinity);
+
+  function handleWindowSizeChange() {
+    setWidth(window.innerWidth);
+  }
+  useEffect(() => {
+    window.addEventListener("resize", handleWindowSizeChange);
+    return () => {
+      window.removeEventListener("resize", handleWindowSizeChange);
+    };
+  }, []);
+
+  const isMobile = width <= 768;
+
   return (
     <>
-      <div
-        className="cursor"
-        style={{
-          transform: `translate(${mousePos.x - 7.5}px, ${mousePos.y - 7.5}px)`,
-        }}
-      />
-      <div className="app">
-        <Header
-          scrollToAboutMe={scrollToAboutMe}
-          scrollToProjects={scrollToProjects}
-          scrollToSkills={scrollToSkills}
-          scrollToProfExp={scrollToProfExp}
-        />
-        <div className="page-container">
-          <LandingPage />
-          <AboutMe aboutMeRef={aboutMeRef} />
-          <Experience
-            jobsArray={db.jobsArray}
-            projectsArray={db.projectsArray}
-            projectsRef={projectsRef}
-            skillsRef={skillsRef}
-            profExpRef={profExpRef}
+      {!isMobile ? (
+        <div>
+          <div
+            className="cursor"
+            style={{
+              transform: `translate(${mousePos.x - 7.5}px, ${
+                mousePos.y - 7.5
+              }px)`,
+            }}
           />
-          {/* <Volunteerism /> */}
+          <div className="app">
+            <Header
+              scrollToAboutMe={scrollToAboutMe}
+              scrollToProjects={scrollToProjects}
+              scrollToSkills={scrollToSkills}
+              scrollToProfExp={scrollToProfExp}
+            />
+            <div className="page-container">
+              <LandingPage />
+              <AboutMe aboutMeRef={aboutMeRef} />
+              <Experience
+                jobsArray={db.jobsArray}
+                projectsArray={db.projectsArray}
+                projectsRef={projectsRef}
+                skillsRef={skillsRef}
+                profExpRef={profExpRef}
+              />
+              {/* <Volunteerism /> */}
+            </div>
+          </div>
         </div>
-      </div>
+      ) : (
+        <div className="mobile">
+          <p>
+            The mobile version of this site is currently under construction.{" "}
+          </p>{" "}
+          <div className="wrench">
+            <FaWrench />
+          </div>
+          <p>Please view on a desktop.</p>
+        </div>
+      )}
     </>
   );
 }

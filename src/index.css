@@ -373,3 +373,15 @@ a.employeer  {
   height: 100px;
   margin: 0.75em;
 }
+
+.mobile {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  font-family: 'Lato';
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 1em;
+  text-shadow: 1px 1px 2px grey;
+}
