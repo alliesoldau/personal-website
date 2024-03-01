@@ -80,7 +80,7 @@
   a {
     margin: 0;
     &.name {
-      font-size: 2rem;
+      font-size: 1.5rem;
       font-weight: 400;
       color: var(--bg);
       font-family: 'Sora';
@@ -95,7 +95,7 @@
   .navlink {
     color: var(--bg);
     text-align: right;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-family: 'Lato';
 
   }
