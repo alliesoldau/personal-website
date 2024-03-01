@@ -1,31 +1,14 @@
 import NavBar from "./NavBar";
 
-function Header({
-  scrollToAboutMe,
-  scrollToProjects,
-  scrollToSkills,
-  scrollToProfExp,
-}) {
-  function handleClickName() {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  }
-
+function Header() {
   return (
     <div className="header">
       <div className="home-btn">
-        <p className="name" onClick={handleClickName}>
+        <a href="#HomePage" className="name">
           Allie Soldau
-        </p>
+        </a>
       </div>
-      <NavBar
-        scrollToAboutMe={scrollToAboutMe}
-        scrollToProjects={scrollToProjects}
-        scrollToSkills={scrollToSkills}
-        scrollToProfExp={scrollToProfExp}
-      />
+      <NavBar />
     </div>
   );
 }

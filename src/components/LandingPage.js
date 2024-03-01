@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import ScrollArrow from '../images/Scroll.png'
+import ScrollArrow from "../images/Scroll.png";
 
 const loopArr = [
   "a self-taught wood worker.",
@@ -8,11 +8,10 @@ const loopArr = [
   "a community conservationist.",
   "a beginnermediate snowboarder.",
   "a car sing-along enthusiast.",
-  "a needlework artist."
+  "a needlework artist.",
 ];
 
 function LandingPage() {
-
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -30,15 +29,23 @@ function LandingPage() {
   return (
     <>
       <div id="LandingPage">
-        <p className="hi-there">Hi there!</p>
-        <p className="blurb">I'm a Mechanical Engineer turned Software Developer</p>
-        <p className="blurb-cycle" key={loopArr[index]}>and {loopArr[index]}</p>
+        <h1 className="hi-there">Hi there!</h1>
+        <p className="blurb">
+          I'm a Fullstack Developer with a background in Mechanical Engineering
+        </p>
+        <p className="blurb-cycle" key={loopArr[index]}>
+          and {loopArr[index]}
+        </p>
         <div className="Scroll-Arrow-Div">
-          <img style={{width: "80px"}} src={ScrollArrow}  />
+          <img
+            style={{ width: "80px" }}
+            alt="downward facing arrow prompting user to scroll"
+            src={ScrollArrow}
+          />
         </div>
       </div>
     </>
-  )
+  );
 }
 
 export default LandingPage;

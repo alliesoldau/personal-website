@@ -1,7 +1,7 @@
 {
     "jobsArray": [
             {
-                "position": "Full Stack Software Engineering Student",
+                "position": "Fullstack Engineering Student",
                 "employer": "Flatiron School",
                 "employerLink": "https://flatironschool.com/welcome-to-flatiron-school/?utm_source=Google&utm_medium=ppc&utm_campaign=19999152388&utm_content=&utm_term=&uqaid=&Cj0KCQjwqs6lBhCxARIsAG8YcDhmVhd5_UBBsw5Swz_L_4DNOeuBw1_lDEfmI1vbogMqwk0GVnIXukcaAvwyEALw_wcB&gclid=Cj0KCQjwqs6lBhCxARIsAG8YcDhmVhd5_UBBsw5Swz_L_4DNOeuBw1_lDEfmI1vbogMqwk0GVnIXukcaAvwyEALw_wcB",
                 "skills": [
@@ -76,16 +76,16 @@
             {
                 "title": "CampNYS",
                 "GitHubLink": "https://github.com/alliesoldau/CampNYS",
-                "description": "A centralized campsite reservation manager for hosts and campers.",
+                "description": "A centralized campsite reservation manager.",
                 "YouTubeLink": "https://www.youtube.com/embed/XwI78EUfryU",
                 "skills": [
-                    "React", "Ruby on Rails", "PostgreSQL", "Google Maps API", "Styled Components"
+                    "React", "Ruby on Rails", "PostgreSQL", "Google Maps API"
                 ]
             },
             {
                 "title": "FrogWatch USA",
                 "GitHubLink": "https://github.com/alliesoldau/FrogWatch-USA-Data-Collection/tree/main/project",
-                "description": "An improved platform volunteers to log data, and the organization to analyze data.",
+                "description": "A platform to log data and analyze data.",
                 "YouTubeLink": "https://www.youtube.com/embed/w2pvLD0pS7w",
                 "skills": [
                     "Python", "SQLite", "HTML", "CSS", "Mobile Styling"
@@ -94,16 +94,16 @@
             {
                 "title": "Hiking Challenge Tracker",
                 "GitHubLink": "https://github.com/alliesoldau/hiking-tracker-dutzy-soldau",
-                "description": "An interactive data management site track progress towards challenges hiking.",
+                "description": "An interactive data management site for challenges hiking.",
                 "YouTubeLink": "https://www.youtube.com/embed/TUFJXX7V0jo",
                 "skills": [
-                    "React", "MySQL", "CSS", "Database Manipulation", "Routing", "Navigation"
+                    "React", "MySQL", "Routing", "Navigation", "Database Dev"
                 ]
             },
             {
                 "title": "End Grain Cutting Board Designer",
                 "GitHubLink": "https://github.com/alliesoldau/End-Grain-Cutting-Board-Designer",
-                "description": "A site for woodworkers to design cutting board projects with minimal waste.",
+                "description": "A site for woodworkers to design minimal waste cutting boards.",
                 "YouTubeLink": "https://www.youtube.com/embed/NotJvmUfZRI",
                 "skills": [
                     "JavaScript", "HTML", "CSS", "Bootstrap", "Printing"

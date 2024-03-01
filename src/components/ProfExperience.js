@@ -6,8 +6,12 @@ function ProfExperience({ jobsArray, profExpRef }) {
       <JobBlock key={index} jobDetails={jobDetails} profExpRef={profExpRef} />
     );
   });
-
-  return <div className="jobs">{jobs}</div>;
+  return (
+    <div id="ProfExperience">
+      <h4>Professional Experience</h4>
+      <div className="jobs">{jobs}</div>
+    </div>
+  );
 }
 
 export default ProfExperience;

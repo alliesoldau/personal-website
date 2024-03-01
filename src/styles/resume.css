@@ -1,0 +1,28 @@
+div.resume {
+    padding: 0.5em;
+    padding-left: 0;
+    border: none;
+    border-radius: 3px;
+    width: auto;
+    display: flex;
+    justify-content: left;
+    margin-top: 1rem;
+  }
+  
+  .resume a {
+    background-color: var(--bg);
+    border-radius: 50px;
+    color: var(--secondary);
+    font-weight: 300;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 0.5rem 0;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .resume a:hover {
+    /* background-color: var(--secondary); */
+    /* border-color: var(--bg); */
+    /* color: var(--bg); */
+    text-decoration: underline;
+  }

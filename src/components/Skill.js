@@ -1,10 +1,9 @@
 function Skill({ skill }) {
-
-    return(
-        <div className="skill">
-            <p>{skill}</p>
-        </div>
-    )
+  return (
+    <div className="skill">
+      <p class="pill">{skill}</p>
+    </div>
+  );
 }
 
 export default Skill;

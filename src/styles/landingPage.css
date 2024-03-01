@@ -1,0 +1,56 @@
+#LandingPage {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+  } 
+  
+#LandingPage .Scroll-Arrow-Div {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 10%;
+  }
+
+  @media only screen and (max-width: 960px) {
+    #LandingPage {
+      position: relative;
+      justify-content: flex-start;
+      margin-top: 6rem;
+      height: 50vh;
+      .Scroll-Arrow-Div {
+        position: absolute;
+        bottom: 1rem;
+      }
+    }
+}
+  
+#LandingPage .blurb, .blurb-cycle {
+    font-size: 1.5em;
+    margin-bottom: 0;
+    line-height: 2em;
+    margin: 0;
+  }
+  
+.blurb-cycle {
+    opacity: 0;
+    animation: fade-in 1s ease-in forwards, fade-out 3s 1s ease-out forwards;
+  }
+  
+@keyframes fade-in {
+    100% {
+      opacity: 1;
+    }
+    0% {
+      opacity: 0;
+    }
+  }
+  
+@keyframes fade-out {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }

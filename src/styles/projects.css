@@ -1,0 +1,56 @@
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+  }
+  
+  .project {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  @media only screen and (max-width: 600px) {
+    .project {
+      padding-left: 0;
+    }
+  }
+  
+  p.project-title {
+    margin-bottom: 0rem;
+    font-weight: 350;
+    a {
+      text-decoration: none;
+      color: var(--secondary);
+      &:hover {
+        font-weight: 400;
+      }
+    }
+  }
+  
+  .project-desc {
+    font-size: 0.9em;
+    width: 100%;
+    margin-bottom: 0.25rem;
+  }
+  
+  .youtube {
+    display: flex;
+    flex-direction: center;
+    margin: auto;
+  }
+  
+  .video {
+    width: 100%;
+  }
+  
+  .project-skills {
+    margin-top: 0.25em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+  }

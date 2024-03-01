@@ -1,26 +1,19 @@
-function NavBar({
-  scrollToAboutMe,
-  scrollToProjects,
-  scrollToSkills,
-  scrollToProfExp,
-}) {
+function NavBar() {
   return (
-    <>
-      <div className="navbar-container">
-        <p className="navlink" onClick={scrollToAboutMe}>
-          About Me
-        </p>
-        <p className="navlink" onClick={scrollToProjects}>
-          Projects
-        </p>
-        <p className="navlink" onClick={scrollToSkills}>
-          Skills
-        </p>
-        <p className="navlink" onClick={scrollToProfExp}>
-          Experience
-        </p>
-      </div>
-    </>
+    <div className="navbar-container">
+      <a href="#AboutMe" className="navlink">
+        About Me
+      </a>
+      <a href="#Skills" className="navlink">
+        Skills
+      </a>
+      <a href="#Projects" className="navlink">
+        Projects
+      </a>
+      <a href="#ProfExperience" className="navlink">
+        Experience
+      </a>
+    </div>
   );
 }
 

@@ -1,0 +1,105 @@
+/* Typography */
+
+html {
+    font-size: 16px;
+}
+
+p {
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+}
+
+p, h1, h2, h3, h4, h5, h6, a, li, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4 {
+    color: var(--primary);
+    font-weight: 500;
+}
+
+h5, h6 {
+    color: var(--platinum);
+}
+
+p.subtle {
+    opacity: 0.65;
+}
+
+p.pill {
+    justify-content: flex-start;
+    border: 1px solid;
+    height: fit-content;
+    font-size: 0.75em;
+    text-align: center;
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    margin: 2px 2px;
+    border-radius: 50px;
+    opacity: 0.75;
+    line-height: 1.5;
+    background: var(--bg);
+    color: var(--text);
+    border-color: var(--timberwolf);
+    &.dark {
+        opacity: 1;
+        border-color: var(--bg);
+        color: var(--bg);
+        background-color: white;
+    }
+}
+
+/* Mobile  */
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 12px;
+    }
+}
+/* Tablet  */
+@media only screen and (max-width: 960px) {
+    html {
+        font-size: 14px;
+    }
+}
+/* Small Desktop
+@media only screen and (max-width: 1280px) {
+    html {
+        font-size: 16px;
+    }
+}
+/* Large Desktop */
+/* @media only screen and (max-width: 1920px) {
+    html {
+        font-size: 16px;
+    }
+} */
