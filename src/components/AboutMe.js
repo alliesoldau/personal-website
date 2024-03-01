@@ -9,10 +9,7 @@ function AboutMe() {
         <h3>About Me</h3>
         <Hidden lgUp>
           <div id="me">
-            <img
-              alt="Image of Allie Soldau smiling on top of a mountain"
-              src={Me}
-            ></img>
+            <img alt="Allie Soldau smiling on top of a mountain" src={Me}></img>
           </div>
         </Hidden>
       </Grid>

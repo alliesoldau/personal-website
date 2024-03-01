@@ -1,7 +1,7 @@
 function SkillsNav({ activeNavItem, setActiveNavItem, setTopLeftRadius }) {
   const handleClick = (index) => {
     setActiveNavItem(index);
-    if (index != 1) {
+    if (index !== 1) {
       setTopLeftRadius(true);
     } else {
       setTopLeftRadius(false);

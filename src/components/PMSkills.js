@@ -14,7 +14,7 @@ function PMSkills({ activeNavItem }) {
   ));
 
   return (
-    <div className={`PM-skills-container ${activeNavItem == 2 ? "" : "hide"}`}>
+    <div className={`PM-skills-container ${activeNavItem === 2 ? "" : "hide"}`}>
       <div class="skills-list-container">{skillsList}</div>
       {skillBadges}
     </div>

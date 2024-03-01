@@ -16,7 +16,7 @@ function TechnicalSkills({ activeNavItem }) {
   return (
     <div
       className={`technical-skills-container ${
-        activeNavItem == 1 ? "" : "hide"
+        activeNavItem === 1 ? "" : "hide"
       }`}
     >
       <div class="skills-list-container">{skillsList}</div>

@@ -14,7 +14,7 @@ function MESkills({ activeNavItem }) {
   ));
 
   return (
-    <div className={`ME-skills-container ${activeNavItem == 3 ? "" : "hide"}`}>
+    <div className={`ME-skills-container ${activeNavItem === 3 ? "" : "hide"}`}>
       <div class="skills-list-container">{skillsList}</div>
       {skillBadges}
     </div>
