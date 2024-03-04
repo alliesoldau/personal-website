@@ -15,6 +15,8 @@ function Edu({ eduDetails }) {
       </Hidden>
       <div className="edu">
         <div className="edu-header">
+          <p>{eduDetails.program}</p>
+          <p className="divider">⸻</p>
           <a
             className="institution"
             href={`${eduDetails.url}`}
@@ -24,16 +26,11 @@ function Edu({ eduDetails }) {
           >
             <p className="institution">{eduDetails.institution}</p>
           </a>
-          <p>⸻</p>
-          <p className="years subtle">
+          {/* <p className="years">
             {eduDetails.startYear} - {eduDetails.endYear}
-          </p>
+          </p> */}
         </div>
-        <p>{eduDetails.program}</p>
-        {/* <div className="text"> */}
-        {/* <JobSkills jobSkills={jobDetails.skills} /> */}
-        {/* <JobBullets jobBullets={jobDetails.bullets} /> */}
-        {/* </div> */}
+        <p className="edu-blurb subtle">{eduDetails.blurb}</p>
       </div>
     </Grid>
   );
