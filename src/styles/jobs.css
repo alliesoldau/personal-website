@@ -7,33 +7,42 @@
       margin-bottom: 0.25rem;
     }
   }
+
+  @media only screen and (max-width: 600px) {
+    .jobs .MuiGrid-container {
+      padding-right: 0;
+    }
+  }
   
-  .MuiGrid-container.job-block {
+  .MuiGrid-container  .MuiGrid-container.job-block {
     background-color: var(--bg);
     border-radius: 4px;
     height: 100%;
-    padding: 2rem !important;
+    padding: 2rem;
+    padding-bottom: 0;
     margin-top: 1rem;
   }
 
   @media only screen and (max-width: 600px) {
-    .MuiGrid-container.job-block {
-      padding-left: 0 !important;
+    .MuiGrid-container .MuiGrid-container.job-block {
+      padding-right: 1rem;
+      padding-left: 0;
     }
   }
   
-  .job-block:hover {
-    filter: brightness(1.25);
-    transition: filter 300ms;
-    a.employeer p:hover {
-      font-weight: 400;
-    }
+  a.employeer p:hover {
+    text-decoration: underline;
   }
   
   .job {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+  }
+
+  .job-header {
+    display: flex;
+    justify-content: flex-start;
   }
   
   .position {
@@ -63,9 +72,8 @@
     transition: filter 300ms;
   }
   
-  #job-blurb {
+  /* #job-blurb {
     line-height: 1.5em;
-    overflow: hidden;
     margin-top: 0;
     .text {
       padding-top: 0;
@@ -74,7 +82,7 @@
   
   #job-blurb ul {
     margin: 0;
-  }
+  } */
   
   .job-skills {
     display: flex;
@@ -84,8 +92,14 @@
     width: 100%;
   }
   
-  /* .skill p {
-    background: var(--bg);
-    color: var(--text);
-    border-color: var(--timberwolf);
-  } */
+ .logo-container {
+    height: 6rem;
+    width: fit-content;
+    background-color: white;
+ }
+
+ .logo-container img {
+  max-height: 6rem;
+  width: auto;
+  object-fit: contain;
+}

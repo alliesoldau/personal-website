@@ -26,7 +26,7 @@
       text-decoration: none;
       color: var(--secondary);
       &:hover {
-        font-weight: 400;
+        text-decoration: underline;
       }
     }
   }

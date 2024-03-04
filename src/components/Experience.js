@@ -11,7 +11,7 @@ function Experience({ jobsArray, projectsArray }) {
       <ProfExperience jobsArray={jobsArray} />
       <div className="resume">
         <a className="resume" href={Resume} target="_blank" rel="noreferrer">
-          View resume
+          Open resume
         </a>
       </div>
     </div>

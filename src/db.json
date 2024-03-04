@@ -12,7 +12,8 @@
                     "Demonstrated skills in full Software Life Cycle from concept work to deployment.",
                     "Mastered with Figma, technical proposals, GitHub branch management, and unit testing.",
                     "Collaborated with fellow engineers through pair programming and design reviews."
-                ]
+                ],
+                "logo": "Flatiron.png"
             },
             {
                 "position": "Senior Product Design Engineer",
@@ -27,7 +28,8 @@
                     "Facilitated testing protocols for electromechanical waterproofing (IP7).",
                     "Launched 10+ templates/processes to increase efficiency and traceability.",
                     "Program Managed DE&I Ed. and Awareness Initiative; 9 programs."
-                ]
+                ],
+                "logo": "Harry's.png"
             },
             {
                 "position": "Associate Product Design Engineer",
@@ -42,7 +44,8 @@
                     "Led design improvements on 5+ critical-to-function part upgrades.",
                     "Rapid-Prototyped using 3D printing, casting, molding, and machining.",
                     "Leveraged CMs and tooling vendors to support existing products."
-                ]
+                ],
+                "logo": "Harry's.png"
             },
             {
                 "position": "Design Engineering Coop",
@@ -56,7 +59,8 @@
                     "Reduced production cost and improved ergonomics of existing parts.",
                     "Developed SOPs and performed extensive testing on complex assemblies.",
                     "Performed tests and analyzed the data to validate design changes."
-                ]
+                ],
+                "logo": "Tesla.png"
             },
             {
                 "position": "Systems Engineering Coop",
@@ -69,7 +73,8 @@
                     "Designed testing protocols to ensure robots met government specifications.",
                     "Performed hardware diagnostics and software debugging on Lidar sensors.",
                     "Prototyped water-proofing improvements to extend life of robot by 50%."
-                ]
+                ],
+                "logo": "iRobot.png"
             }        
         ],
     "projectsArray": [
