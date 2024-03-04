@@ -2,16 +2,18 @@
 
 import React, { useState } from "react";
 
-const NavBarMobile = () => {
-  const [isOpen, setIsOpen] = useState(false);
+const NavBarMobile = ({ isOpen, setIsOpen }) => {
   const toggleNav = () => {
     setIsOpen(!isOpen);
+  };
+  const closeNav = () => {
+    setIsOpen(false);
   };
 
   return (
     <div className="off-canvas-nav">
       <div className="mobile-top-bar">
-        <a className="name" href="#HomePage">
+        <a className="name" href="#HomePage" onClick={closeNav}>
           Allie Soldau
         </a>
         <div className="menu-toggle" onClick={toggleNav}>

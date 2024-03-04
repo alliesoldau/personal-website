@@ -73,7 +73,7 @@ p.pill {
     border-color: var(--timberwolf);
     &.dark {
         opacity: 1;
-        border-color: var(--bg);
+        border-color: lightgray;
         color: var(--bg);
         background-color: white;
     }

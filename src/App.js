@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import LandingPage from "./components/LandingPage";
 import AboutMe from "./components/AboutMe";
 import Experience from "./components/Experience";
@@ -14,22 +14,19 @@ function App() {
     console.log("🐸 secret frog 🐸");
   }, []);
 
-  // const styling = {
-  //   container: {
-  //     paddingRight: 4,
-  //     paddingBottom: 4,
-  //     width: "100%",
-  //     margin: 0,
-  //   },
-  // };
+  const [isOpen, setIsOpen] = useState(false);
+
+  const closeNav = () => {
+    setIsOpen(false);
+  };
 
   return (
     <>
       {" "}
       <Hidden lgUp>
-        <NavBarMobile />
+        <NavBarMobile setIsOpen={setIsOpen} isOpen={isOpen} />
       </Hidden>
-      <Grid container spacing={2} className="app">
+      <Grid container spacing={2} className="app" onClick={closeNav}>
         <Hidden lgDown>
           <Grid item lg={2}>
             <Header />
