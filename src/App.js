@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
+import Header from "./components/Header";
+import NavBarMobile from "./components/NavBarMobile";
 import LandingPage from "./components/LandingPage";
 import AboutMe from "./components/AboutMe";
 import Experience from "./components/Experience";
+import Education from "./components/Education";
 // import Volunteerism from './components/Volunteerism'
-import Header from "./components/Header";
-import NavBarMobile from "./components/NavBarMobile";
 import db from "./db.json";
 import "./App.css";
 import { Grid, Hidden } from "@mui/material";
@@ -39,8 +40,8 @@ function App() {
             <Experience
               jobsArray={db.jobsArray}
               projectsArray={db.projectsArray}
+              educationArray={db.educationArray}
             />
-            {/* <Volunteerism /> */}
           </div>
         </Grid>
         <Grid item xs={12} id="last-updated">

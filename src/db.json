@@ -1,6 +1,21 @@
 {
     "jobsArray": [
             {
+                "position": "Software Engineer",
+                "employer": "Handknit Websites",
+                "employerLink": "https://www.hkw.io/",
+                "skills": [
+                    "React/JS", "SQL", "WordPress/PHP", "HTML/CSS", "RESTful APIs", "Headless CMS", "SEO Improvements"
+                ],
+                "bullets": [
+                    "Develop entire bespoke websites for clients focusing on ease of database management and accissible front-ends.",
+                    "Launch rapid turn around component creation for 10+ existing clients with complex CMS and front-end needs.",
+                    "Manage ongoing SEO improvements to uplift visibility of sites and increase customer acquisition.",
+                    "Elevate company project standards through creating and implementing unique documentation and PM practices."
+                ],
+                "logo": "HKW.png"
+            },
+            {
                 "position": "Fullstack Engineering Student",
                 "employer": "Flatiron School",
                 "employerLink": "https://flatironschool.com/welcome-to-flatiron-school/?utm_source=Google&utm_medium=ppc&utm_campaign=19999152388&utm_content=&utm_term=&uqaid=&Cj0KCQjwqs6lBhCxARIsAG8YcDhmVhd5_UBBsw5Swz_L_4DNOeuBw1_lDEfmI1vbogMqwk0GVnIXukcaAvwyEALw_wcB&gclid=Cj0KCQjwqs6lBhCxARIsAG8YcDhmVhd5_UBBsw5Swz_L_4DNOeuBw1_lDEfmI1vbogMqwk0GVnIXukcaAvwyEALw_wcB",
@@ -114,5 +129,24 @@
                     "JavaScript", "HTML", "CSS", "Bootstrap", "Printing"
                 ]
             }
+    ],
+    "educationArray": [
+        { 
+            "institution": "Flatiron School",
+            "startYear": 2022,
+            "endYear": 2023,
+            "program": "BC, Software Engineering",
+            "logo": "Flatiron.png",
+            "url": "https://flatironschool.com/"
+        },
+        { 
+            "institution": "Northeastern University",
+            "startYear": 2013,
+            "endYear": 2018,
+            "program": "BS, Mechanical Engineering",
+            "honors": "Graduated Top of Class",
+            "logo": "NEU.png",
+            "url": "https://www.northeastern.edu/"
+        }
     ]
 }

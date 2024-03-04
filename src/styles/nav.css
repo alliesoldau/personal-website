@@ -51,6 +51,9 @@
   .navlink:hover {
     color: var(--secondary);
     filter: brightness(1.25);
+    svg path {
+      stroke: var(--secondary);
+    }
   }
 
 /* Mobile Nav */
@@ -112,6 +115,15 @@ nav.open {
   right: 0;
 }
 
+div.resume {
+  display: flex;
+  justify-content: flex-end;
+  svg {
+    height: 1.25rem;
+    margin-left: 0.25rem;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   nav {
     right: -250px;
@@ -121,6 +133,12 @@ nav.open {
 @media only screen and (max-width: 1199px) {
   nav {
     right: -400px;
-    max-width: 200px;
+    width: 50%;
+  }
+  .resume svg {
+    height: 1.75rem !important;
+    path {
+      stroke: var(--bg);
+    }
   }
 }

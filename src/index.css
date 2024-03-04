@@ -4,7 +4,6 @@
 @import url('./styles/nav.css');
 @import url('./styles/landingPage.css');
 @import url('./styles/aboutMe.css');
-@import url('./styles/resume.css');
 @import url('./styles/jobs.css');
 @import url('./styles/projects.css');
 @import url('./styles/skillsBlock.css');
@@ -77,7 +76,7 @@ dl {
 } 
 
 /* Provide padding and margins for anchor tags */
-div#Skills, div#Projects, #AboutMe, div#ProfExperience {
+div#Skills, div#Projects, #AboutMe, div#ProfExperience, div#Education {
   padding-top: 4rem;
   margin-top: 6rem;
 }
@@ -127,7 +126,7 @@ p.last-update {
   #LandingPage {
     padding-top: 4rem;
   }
-  div#Skills, div#Projects, #AboutMe, div#ProfExperience {
+  div#Skills, div#Projects, #AboutMe, div#ProfExperience, div#Education {
     margin-top: 2rem;
   }
 }

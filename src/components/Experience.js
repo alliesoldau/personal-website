@@ -1,19 +1,15 @@
 import ProfExperience from "./ProfExperience";
 import Projects from "./Projects";
 import Skills from "./Skills";
-import Resume from "../images/Resume.pdf";
+import Education from "./Education";
 
-function Experience({ jobsArray, projectsArray }) {
+function Experience({ jobsArray, projectsArray, educationArray }) {
   return (
     <div id="Experience">
       <Skills />
       <Projects projectsArray={projectsArray} />
       <ProfExperience jobsArray={jobsArray} />
-      <div className="resume">
-        <a className="resume" href={Resume} target="_blank" rel="noreferrer">
-          Open resume
-        </a>
-      </div>
+      <Education educationArray={educationArray} />
     </div>
   );
 }
