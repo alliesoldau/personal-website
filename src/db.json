@@ -120,20 +120,20 @@
             "institution": "Flatiron School",
             "startYear": 2022,
             "endYear": 2023,
-            "program": "BC, Software Engineering",
+            "program": "Software Engineering, BC",
             "logo": "Flatiron.png",
             "url": "https://flatironschool.com/",
-            "blurb": "Full Stack Web Development, Ruby on Rails and JavaScript program"
+            "blurb": "Fullstack Web Development Program"
         },
         { 
             "institution": "Northeastern University",
             "startYear": 2013,
             "endYear": 2018,
-            "program": "BS, Mechanical Engineering",
+            "program": "Mechanical Engineering, BS",
             "honors": "Graduated Top of Class",
             "logo": "NEU.png",
             "url": "https://www.northeastern.edu/",
-            "blurb": "Honors: Global Presidential Scholar, Dean’s List all semesters"
+            "blurb": "Global Presidential Scholar"
         }
     ]
 }
