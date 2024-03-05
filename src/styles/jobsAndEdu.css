@@ -29,10 +29,12 @@
     margin-top: 0.5rem;
   }
 
-  @media only screen and (max-width: 600px) {
-    .MuiGrid-container .MuiGrid-container.job-block, 
+  @media only screen and (max-width: 600px) { 
     .edu-contents{
       padding-left: 0;
+    }
+    .MuiGrid-container .MuiGrid-container.job-block {
+      padding-left: 1rem;
     }
   }
   
