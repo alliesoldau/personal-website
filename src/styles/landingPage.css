@@ -4,6 +4,7 @@
     height: 100vh;
     justify-content: center;
     gap: 0.5rem;
+    margin-left: 4rem;
   } 
   
 #LandingPage .Scroll-Arrow-Div {
@@ -17,11 +18,10 @@
     #LandingPage {
       position: relative;
       justify-content: flex-start;
-      margin: auto;
+      margin-left: 4rem;
       margin-top: 12rem;
       height: 50vh;
       min-height: 400px;
-      width: fit-content;
       .Scroll-Arrow-Div {
         position: absolute;
         bottom: 1rem;
@@ -52,6 +52,7 @@ div.blurb {
 @media only screen and (max-width: 600px) {
   #LandingPage {
     margin-top: 6rem;
+    margin-left: 0;
     width: 100%;
   }
   #LandingPage div.blurb {
