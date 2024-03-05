@@ -67,16 +67,17 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 1em;
+    font-size: 1.25em;
   }
   
   .employeer {
     display: flex;
     flex-direction: column;
-    font-size: 1em;
+    font-size: 1.25em;
     justify-content: center;
     margin-right: 1em;
     margin-left: 1em;
+    margin-bottom: 0.5rem;
   }
   
   a.employeer, a.institution  {
