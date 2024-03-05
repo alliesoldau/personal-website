@@ -41,7 +41,7 @@ div.blurb {
   gap: 1rem;
   .fa-solid {
     line-height: 1.25;
-    color: var(--secondary);
+    color: var(--text);
     /* opacity: 0.65; */
     font-size: 1.25rem;
     display: flex;
