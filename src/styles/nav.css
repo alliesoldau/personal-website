@@ -57,7 +57,15 @@
   }
   .navlink:focus {
     svg path {
-      stroke: var(--bg);
+      stroke: var(--text);
+    }
+  }
+
+  @media only screen and (max-width: 1199px) {
+    .navlink:focus {
+      svg path {
+        stroke: var(--bg);
+      }
     }
   }
 

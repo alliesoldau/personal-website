@@ -50,6 +50,10 @@
       margin-bottom: 0.5rem;
     }
   }
+
+  .years {
+    font-size: 0.8rem;
+  }
   
   .position {
     margin-right: 1em;

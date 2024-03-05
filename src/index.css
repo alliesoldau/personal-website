@@ -112,7 +112,7 @@ p.last-update {
     padding-right: 2rem;
   }
   #text-content {
-    padding-left: 1rem;
+    padding-left: 0;
     padding-top: 1.5rem;
   }
   .MuiGrid-container {

@@ -23,11 +23,11 @@
                     "MiniTab", "Arduino", "Product Design", "Manufacturing", "3D Modeling", "Program Management"
                 ],
                 "bullets": [
-                    "Led development of company's first suite of electromechanical products.",
-                    "Became subject matter expert in light pipe design and button UX.",
-                    "Facilitated testing protocols for electromechanical waterproofing (IP7).",
-                    "Launched 10+ templates/processes to increase efficiency and traceability.",
-                    "Program Managed DE&I Ed. and Awareness Initiative; 9 programs."
+                    "Led mechanical and electrical development of the company's first suite of electromechanical grooming products.",
+                    "Facilitated complex IP7 standard safety testing protocols for electromechanical waterproofing.",
+                    "Spearheaded light pipe design and button UX mechanical and industrial design standards.",
+                    "Launched 10+ unqiue templates and processes to increase project efficiency and traceability.",
+                    "Program Managed DE&I Education and Awareness Initiative with team of 10; 3 events serving 100+ people."
                 ],
                 "logo": "Harry's.png"
             },
@@ -39,11 +39,11 @@
                     "Python", "Finite Element Analysis", "Mechanical Design", "SOP Development", "Tolerance Analysis"
                 ],
                 "bullets": [
-                    "Designed and launched 5 consumer goods products.",
-                    "Mastered molding, die-casting, and sheet-metal manufacturing methods.",
-                    "Led design improvements on 5+ critical-to-function part upgrades.",
-                    "Rapid-Prototyped using 3D printing, casting, molding, and machining.",
-                    "Leveraged CMs and tooling vendors to support existing products."
+                    "Designed and launched products using injection molding, die-casting, and sheet-metal manufacturing methods",
+                    "Mastered plastic injection molding molding, die-casting, blow-molding, and sheet-metal manufacturing methods.",
+                    "Led and released design improvements on 5+ critical-to-function part upgrades on evergreen products.",
+                    "Rapid-Prototyped using 3D printing, laser-cutting, casting, molding, and machining.",
+                    "Leveraged world-wide CMs, tooling vendors, and prototype shops to support existing products."
                 ],
                 "logo": "Harry's.png"
             },
@@ -55,10 +55,10 @@
                     "MATLAB", "Data Analysis", "Cost Reduction", "Ergonomics Improvements", "Industrial Design"
                 ],
                 "bullets": [
-                    "Prototyped improvements on dynamic parts of Model 3's center console.",
-                    "Reduced production cost and improved ergonomics of existing parts.",
-                    "Developed SOPs and performed extensive testing on complex assemblies.",
-                    "Performed tests and analyzed the data to validate design changes."
+                    "Prototyped ergonomic and structural improvements on dynamic parts of Model 3's center console.",
+                    "Reduced production cost and improved user comfort of Model 3 and Model Y.",
+                    "Developed SOPs and performed extensive testing on complex, criticial-to-function assemblies.",
+                    "Managed testing and data analysis protocols to validate design changes."
                 ],
                 "logo": "Tesla.png"
             },
@@ -70,9 +70,9 @@
                     "Diagnostics", "Debugging", "Lidar Sensors", "Testing Design", "Laser Cutting", "Data Analytics"
                 ],
                 "bullets": [
-                    "Designed testing protocols to ensure robots met government specifications.",
+                    "Designed and performed testing protocols to ensure robots met rigorous government specifications.",
                     "Performed hardware diagnostics and software debugging on Lidar sensors.",
-                    "Prototyped water-proofing improvements to extend life of robot by 50%."
+                    "Prototyped cost-effective water-proofing improvements to extend life of robot by 50%."
                 ],
                 "logo": "iRobot.png"
             }        
