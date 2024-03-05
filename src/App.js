@@ -46,7 +46,7 @@ function App() {
         </Grid>
         <Grid item xs={12} id="last-updated">
           <p class="last-update">
-            Last updated: <i>2024</i>
+            Last updated: <i>March 2024</i>
           </p>
         </Grid>
       </Grid>

@@ -3,6 +3,21 @@
     flex-direction: column;
     font-size: 1em;
     line-height: 1.5em;
+    margin-top: 1rem;
+    .blurb {
+      flex-direction: column;
+      p {
+        margin: 0;
+      }
+    }
+    .icon-links {
+      margin-top: 0.75rem;
+    }
+  }
+  @media only screen and (min-width: 960px) {
+    .AboutMeContents {
+      margin-top: 0;
+    }
   }
 
   #me {
@@ -44,7 +59,7 @@
     );
   }
   @media only screen and (max-width: 1199px) {
-    #AboutMe {
+    #AboutMe, #text-content {
       display: flex;
       align-items: baseline;
       justify-content: space-between;
@@ -54,6 +69,9 @@
       h3 {
         margin-bottom: 0;
       }
+    }
+    #text-content {
+      border: none;
     }
     #me {
       max-width: 30vw;

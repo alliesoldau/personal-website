@@ -3,6 +3,7 @@
     flex-direction: column;
     height: 100vh;
     justify-content: center;
+    gap: 0.5rem;
   } 
   
 #LandingPage .Scroll-Arrow-Div {
@@ -16,9 +17,11 @@
     #LandingPage {
       position: relative;
       justify-content: flex-start;
-      margin-top: 6rem;
+      margin: auto;
+      margin-top: 12rem;
       height: 50vh;
       min-height: 400px;
+      width: fit-content;
       .Scroll-Arrow-Div {
         position: absolute;
         bottom: 1rem;
@@ -27,15 +30,46 @@
 }
   
 #LandingPage .blurb, .blurb-cycle {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     margin-bottom: 0;
-    line-height: 2em;
+    line-height: 2.5rem;
     margin: 0;
   }
+
+div.blurb {
+  display: flex;
+  gap: 1rem;
+  .fa-solid {
+    line-height: 1.25;
+    color: var(--secondary);
+    /* opacity: 0.65; */
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #LandingPage {
+    margin-top: 6rem;
+    width: 100%;
+  }
+  #LandingPage div.blurb {
+    p {
+      font-size: 1rem;
+    }
+    .fa-solid {
+      font-size: 1rem;
+    }
+  }
+}
   
 .blurb-cycle {
     opacity: 0;
     animation: fade-in 1s ease-in forwards, fade-out 3s 1s ease-out forwards;
+    p {
+      margin: 0;
+    }
   }
   
 @keyframes fade-in {

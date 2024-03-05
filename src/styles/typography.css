@@ -84,6 +84,9 @@ p.pill {
     html {
         font-size: 12px;
     }
+    h1 {
+        font-size: 2.5rem;
+    }
 }
 /* Tablet  */
 @media only screen and (max-width: 960px) {

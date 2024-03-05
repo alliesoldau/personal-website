@@ -26,11 +26,11 @@ function Edu({ eduDetails }) {
           >
             <p className="institution">{eduDetails.institution}</p>
           </a>
-          {/* <p className="years">
-            {eduDetails.startYear} - {eduDetails.endYear}
-          </p> */}
         </div>
         <p className="edu-blurb subtle">{eduDetails.blurb}</p>
+        <p className="years subtle">
+          {eduDetails.startYear} - {eduDetails.endYear}
+        </p>
       </div>
     </Grid>
   );
