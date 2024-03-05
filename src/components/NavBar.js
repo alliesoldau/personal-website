@@ -20,7 +20,7 @@ function NavBar() {
       </a>
       <a className="navlink" href={Resume} target="_blank" rel="noreferrer">
         <div className="resume">
-          Open Resume
+          Resume
           <svg
             viewBox="0 0 24 24"
             fill="none"
