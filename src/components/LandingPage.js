@@ -15,7 +15,7 @@ function LandingPage() {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    const intervalDelayMilliseconds = loopArr[index].blurb.length * 150;
+    const intervalDelayMilliseconds = 5000;
     const interval = setInterval(() => {
       setIndex((prevIndex) => {
         // reset index if current index is greater than array size
