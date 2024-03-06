@@ -26,14 +26,15 @@ const NavBarMobile = ({ isOpen, setIsOpen }) => {
           <a href="#Skills" className="navlink" onClick={toggleNav}>
             Skills
           </a>
-          <a href="#Projects" className="navlink" onClick={toggleNav}>
-            Projects
-          </a>
+
           <a href="#ProfExperience" className="navlink" onClick={toggleNav}>
             Experience
           </a>
           <a href="#Education" className="navlink" onClick={toggleNav}>
             Education
+          </a>
+          <a href="#Projects" className="navlink" onClick={toggleNav}>
+            Projects
           </a>
           <a className="navlink" href={Resume} target="_blank" rel="noreferrer">
             <div className="resume">

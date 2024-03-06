@@ -62,11 +62,11 @@ const PMSkills = {
 // Create object for TechnicalSkills
 const TechnicalSkills = {
   skillsText: [
-    "RESTful API Development",
-    "Cross-platform Development",
-    "DevOps Practices",
     "Scalable Systems",
     "Impactful Optimizations",
+    "RESTful APIs",
+    "Cross-platform Development",
+    // "DevOps Practices",
     "Source Control Management",
   ],
   skillsLogos: [

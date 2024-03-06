@@ -9,14 +9,14 @@ function NavBar() {
       <a href="#Skills" className="navlink">
         Skills
       </a>
-      <a href="#Projects" className="navlink">
-        Projects
-      </a>
       <a href="#ProfExperience" className="navlink">
         Experience
       </a>
       <a href="#Education" className="navlink">
         Education
+      </a>
+      <a href="#Projects" className="navlink">
+        Projects
       </a>
       <a className="navlink" href={Resume} target="_blank" rel="noreferrer">
         <div className="resume">

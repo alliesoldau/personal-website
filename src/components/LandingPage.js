@@ -2,13 +2,13 @@ import { useState, useEffect } from "react";
 import ScrollArrow from "../images/Scroll.png";
 
 const loopArr = [
-  { blurb: "a self-taught wood worker.", icon: "fa-ruler" },
-  { blurb: "an avid hiker and backpacker.", icon: "fa-person-hiking" },
-  { blurb: "a proud frog parent.", icon: "fa-frog" },
-  { blurb: "a community conservationist.", icon: "fa-seedling" },
-  { blurb: "a casual snowboarder.", icon: "fa-person-snowboarding" },
-  { blurb: "a car sing-along enthusiast.", icon: "fa-car-side" },
-  { blurb: "a needlework artist.", icon: "fa-palette" },
+  { blurb: "a self-taught wood worker", icon: "fa-ruler" },
+  { blurb: "an avid hiker and backpacker", icon: "fa-person-hiking" },
+  { blurb: "a proud frog parent", icon: "fa-frog" },
+  { blurb: "a community conservationist", icon: "fa-seedling" },
+  { blurb: "a casual snowboarder", icon: "fa-person-snowboarding" },
+  { blurb: "a car sing-along enthusiast", icon: "fa-car-side" },
+  { blurb: "a needlework artist", icon: "fa-palette" },
 ];
 
 function LandingPage() {
@@ -32,11 +32,15 @@ function LandingPage() {
         <h1 className="hi-there">Hi there!</h1>
         <div className="blurb">
           <i className="fa-solid fa-code"></i>
-          <p className="blurb">I'm a Fullstack Software Developer</p>
+          <p className="blurb">I'm a fullstack software developer</p>
         </div>
-        <div className="blurb">
+        <div className="blurb desktop">
           <i className="fa-solid fa-wrench"></i>
-          <p className="blurb">with a background in Mechanical Engineering,</p>
+          <p className="blurb">with a background in mechanical engineering</p>
+        </div>
+        <div className="blurb mobile">
+          <i className="fa-solid fa-wrench"></i>
+          <p className="blurb">a mechanical engineer</p>
         </div>
         <div className="blurb blurb-cycle" key={loopArr[index].blurb}>
           <i className={`fa-solid ${loopArr[index].icon}`}></i>

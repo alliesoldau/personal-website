@@ -105,6 +105,10 @@ p.last-update {
   #AboutMe{
     margin-right: 0;
   }
+  div#Skills, div#Projects, #AboutMe, div#ProfExperience, div#Education {
+    padding-top: 8rem;
+    margin-top: 0;
+  }
 }
 
 @media only screen and (max-width: 600px) {

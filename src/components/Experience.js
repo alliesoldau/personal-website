@@ -7,9 +7,9 @@ function Experience({ jobsArray, projectsArray, educationArray }) {
   return (
     <div id="Experience">
       <Skills />
-      <Projects projectsArray={projectsArray} />
       <ProfExperience jobsArray={jobsArray} />
       <Education educationArray={educationArray} />
+      <Projects projectsArray={projectsArray} />
     </div>
   );
 }

@@ -36,6 +36,9 @@
     .MuiGrid-container .MuiGrid-container.job-block {
       padding-left: 1rem;
     }
+    .jobs {
+      gap: 1rem;
+    }
   }
   
   a.employeer p:hover, a.institution p:hover {

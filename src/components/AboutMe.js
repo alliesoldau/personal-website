@@ -17,17 +17,22 @@ function AboutMe() {
         <div className="AboutMeContents">
           <div className="blurb">
             <p>
-              I am experienced in Full Stack Development with a focus on
-              JavaScript, React.js, Ruby on Rails, and Python. I'm passionate
-              about data structures and front end design that emphasizes
-              accessibility.
+              I have 2+ years experience in{" "}
+              <span className="emphasize">Fullstack Development</span> with a
+              focus on JavaScript, React.js, Ruby on Rails, and Python. I'm
+              passionate about efficient and optimized data structures and front
+              end design that emphasizes accessibility.
             </p>
             <p>
-              My background is in Mechanical Engineering where I worked in
-              product design for 5+ years in the consumer goods industry. I have
-              a strong desire to create elegant and efficient solutions. I’m
-              customer focused, committed to cross-functional collaboration, and
-              dedicated to bringing projects from concept to shelf.
+              My background is in{" "}
+              <span className="emphasize">Mechanical Engineering</span> where I
+              worked in product design for 5+ years in the consumer goods
+              industry.
+            </p>
+            <p>
+              I have a strong desire to create elegant solutions. I'm customer
+              focused, committed to cross-functional collaboration, and
+              dedicated to bringing projects from ideation to release.
             </p>
           </div>
           <div className="icon-links">
